@@ -37,6 +37,7 @@ const DayCard: React.FC<DayCardProps> = ({ day }) => {
         <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
           <AirIcon />
           <Typography>Speed: {day.values.windSpeed} m/s</Typography>
+          <Typography>·</Typography>
           <Typography>Gust: {day.values.windGust} m/s</Typography>
           <Box sx={{ flex: 1 }} />
           <ArrowCircleUp
