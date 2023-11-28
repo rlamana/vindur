@@ -1,5 +1,5 @@
 import React from 'react';
-import { ListItemIcon, CardContent, Card, Typography, useTheme } from '@mui/material';
+import { ListItemIcon, CardContent, Card, Typography } from '@mui/material';
 import { Interval } from './model/weather';
 import AirIcon from '@mui/icons-material/Air';
 import dayjs from 'dayjs';
@@ -11,7 +11,6 @@ interface NowCardProps {
 }
 
 const NowCard: React.FC<NowCardProps> = ({ day }) => {
-  const theme = useTheme();
   return (
     <Card>
       <CardContent>

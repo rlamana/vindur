@@ -5,6 +5,7 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 
 import { setConfiguration, selectConfiguration } from './state/conditionsSlice';
+import { Divider } from '@mui/material';
 
 const Configuration: React.FC = () => {
   const dispatch = useDispatch();
@@ -15,9 +16,11 @@ const Configuration: React.FC = () => {
   };
 
   return (
-    <Box p={2}>
-      <Typography variant="h5">Flight Conditions Evaluation</Typography>
-
+    <Box sx={{
+      p: 4
+    }}>
+      <Typography variant="h6">Conditions Configurator</Typography>
+      <Divider sx={{ my: 2 }} />
       <Box mb={3}>
         <Typography gutterBottom>Max Speed: {configuration.maxSpeed}</Typography>
         <Slider

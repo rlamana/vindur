@@ -18,8 +18,6 @@ import dayjs from 'dayjs';
 
 import { Interval } from './model/weather';
 
-import styles from './WindGraph.module.css';
-
 const CanvasBackground: Plugin<'line'> = {
   id: 'CanvasBackground',
   beforeDraw: (chart, _, options) => {
@@ -115,7 +113,7 @@ const WindGraph: React.FC<WindGraphProps> = ({ intervals }) => {
   }, [intervals]);
 
   return (
-    <Line className={styles.WindGraph} options={options as any} data={data} />
+    <Line options={options as any} data={data} />
   );
 
 };

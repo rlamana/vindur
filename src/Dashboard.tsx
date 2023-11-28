@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { Typography, List } from '@mui/material';
+import { Typography, List, Box, Divider } from '@mui/material';
 
 import fixtures from './fixtures/weather.json';
 import { Timeline, WeatherResponse } from './model/weather';
 
-import styles from './Dashboard.module.css';
 import DayCard from './DayCard';
 import NowCard from './NowCard';
 import WindGraph from './WindGraph';
@@ -49,7 +48,7 @@ const getWeatherQuery = (location: GeolocationCoordinates) => {
   url.searchParams.set('startTime', startTime);
   url.searchParams.set('endTime', endTime);
   url.searchParams.set('apikey', timelineApiKey);
-console.log(decodeURIComponent(url.toString()))
+
   return decodeURIComponent(url.toString());
 };
 
@@ -115,32 +114,45 @@ const Dashboard: React.FC = () => {
   }, [location]);
 
   return (
-    <div className={styles.Dashboard}>
-      <Typography variant="h3">7-Day Flying Conditions</Typography>
+    <Box
+      sx={{
+        p: 4,
+        width: '100%',
+      }}
+    >
+      {nowInfo && todayInfo && weekInfo ? (
+        <>
+          <Typography variant="h4" sx={{ textAlign: 'right' }}>
+            🛸 Flying Saucer
+          </Typography>
 
-      <Typography variant="h5">Now</Typography>
-      {nowInfo?.intervals ? (
-        <NowCard day={nowInfo.intervals[0]} />
+          <Typography variant="h5">Now</Typography>
+          {nowInfo?.intervals ? (
+            <NowCard day={nowInfo.intervals[0]} />
+          ) : (
+            <Typography>Loading...</Typography>
+          )}
+
+          <Typography variant="h5">Today</Typography>
+          {todayInfo?.intervals && (
+            <List>
+              <WindGraph intervals={todayInfo.intervals} />
+            </List>
+          )}
+          <Divider sx={{ my: 2 }} />
+          <Typography variant="h5">Week</Typography>
+          {weekInfo?.intervals && (
+            <List>
+              {weekInfo.intervals.map((day, dayIndex) => (
+                <DayCard key={`day-${dayIndex}`} day={day} />
+              ))}
+            </List>
+          )}
+        </>
       ) : (
         <Typography>Loading...</Typography>
       )}
-
-      <Typography variant="h5">Today</Typography>
-      {todayInfo?.intervals && (
-        <List>
-          <WindGraph intervals={todayInfo.intervals} />
-        </List>
-      )}
-
-      <Typography variant="h5">Week</Typography>
-      {weekInfo?.intervals && (
-        <List>
-          {weekInfo.intervals.map((day, dayIndex) => (
-            <DayCard key={`day-${dayIndex}`} day={day} />
-          ))}
-        </List>
-      )}
-    </div>
+    </Box>
   );
 };
 
