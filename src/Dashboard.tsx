@@ -1,5 +1,14 @@
 import React, { useState, useEffect } from 'react';
-import { Typography, List, Box, Divider, LinearProgress } from '@mui/material';
+import {
+  Typography,
+  List,
+  Box,
+  Divider,
+  LinearProgress,
+  Drawer,
+  IconButton,
+} from '@mui/material';
+import { Settings } from '@mui/icons-material';
 
 import { Timeline, WeatherResponse } from './model/weather';
 import DayCard from './DayCard';
@@ -7,6 +16,8 @@ import NowCard from './NowCard';
 import WindGraph from './WindGraph';
 
 import fixtures from './fixtures/weather.json';
+import Configuration from './Configuration';
+
 const USE_FIXTURES_FOR_DEV = true;
 
 const timelineApiKey = 'Cldy6unrJiv47zNSnnkhvi9PP2R403uY';
@@ -56,6 +67,8 @@ const Dashboard: React.FC = () => {
   const [todayInfo, setTodayInfo] = useState<Timeline | null>(null);
   const [weekInfo, setWeekInfo] = useState<Timeline | null>(null);
   const [location, setLocation] = useState<GeolocationCoordinates | null>(null);
+
+  const [showDrawer, setShowDrawer] = useState(false);
 
   useEffect(() => {
     const fetchLocation = () => {
@@ -129,10 +142,29 @@ const Dashboard: React.FC = () => {
             height: '100vh',
           }}
         >
-          <Typography variant="h4" sx={{ textAlign: 'right' }}>
-            🛸 Flying Saucer
-          </Typography>
-
+          <Box
+            sx={{
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'flex-end',
+              flexDirection: 'row',
+              gap: 2,
+            }}
+          >
+            <Typography variant="h4" sx={{ textAlign: 'right' }}>
+              🛸 Flying Saucer
+            </Typography>
+            <IconButton onClick={() => setShowDrawer(!showDrawer)}>
+              <Settings />
+            </IconButton>
+            <Drawer
+              anchor="right"
+              open={showDrawer}
+              onClose={() => setShowDrawer(false)}
+            >
+              <Configuration />
+            </Drawer>
+          </Box>
           <Typography variant="h5">Now</Typography>
 
           <NowCard day={nowInfo.intervals[0]} />

@@ -11,7 +11,7 @@ import {
   Legend,
   Colors,
   Plugin,
-  Filler
+  Filler,
 } from 'chart.js';
 import { useMemo } from 'react';
 import dayjs from 'dayjs';
@@ -22,14 +22,14 @@ import { Box } from '@mui/material';
 const CanvasBackground: Plugin<'line'> = {
   id: 'CanvasBackground',
   beforeDraw: (chart, _, options) => {
-    const {ctx} = chart;
+    const { ctx } = chart;
     ctx.save();
     ctx.globalCompositeOperation = 'destination-over';
     ctx.fillStyle = options.color || '#99ffff';
     ctx.fillRect(0, 0, chart.width, chart.height);
     ctx.restore();
-  }
-}
+  },
+};
 
 ChartJS.register(
   CategoryScale,
@@ -53,14 +53,14 @@ const WindGraph: React.FC<WindGraphProps> = ({ intervals }) => {
     responsive: true,
     plugins: {
       legend: {
-        display: false
+        display: false,
       },
       title: {
         display: false,
       },
       CanvasBackground: {
         color: '#000',
-      }
+      },
     },
     scales: {
       y: {
@@ -69,7 +69,7 @@ const WindGraph: React.FC<WindGraphProps> = ({ intervals }) => {
         grid: {
           display: false,
         },
-        position: 'right'
+        position: 'right',
       },
       x: {
         grid: {
@@ -81,7 +81,9 @@ const WindGraph: React.FC<WindGraphProps> = ({ intervals }) => {
 
   const data = useMemo<ChartData<'line'>>(() => {
     const next12hours = intervals.slice(0, 12);
-    const labels = next12hours.map(({ startTime }) => dayjs(startTime).format('HH') + 'h');
+    const labels = next12hours.map(
+      ({ startTime }) => dayjs(startTime).format('HH') + 'h'
+    );
 
     return {
       labels,
@@ -93,7 +95,7 @@ const WindGraph: React.FC<WindGraphProps> = ({ intervals }) => {
           borderDash: [5, 5],
           borderJoinStyle: 'round',
           borderCapStyle: 'round',
-          tension: .1,
+          tension: 0.1,
           pointStyle: false,
         },
         {
@@ -102,27 +104,34 @@ const WindGraph: React.FC<WindGraphProps> = ({ intervals }) => {
           borderColor: 'rgb(53, 162, 235)',
           borderJoinStyle: 'round',
           borderCapStyle: 'round',
-          tension: .1,
+          tension: 0.1,
           pointStyle: false,
           fill: {
             target: 'origin',
-            above: 'rgba(53, 162, 235, .2)'
-          }
+            above: 'rgba(53, 162, 235, .2)',
+          },
         },
-      ]
-    }
+      ],
+    };
   }, [intervals]);
 
   return (
-    <Box sx={{ display: 'flex' }}>
-      <Line options={options as any} data={data} style={{
-        display: 'flex',
-        width: '100%',
-        height: '100%'
-       }}/>
+    <Box
+      sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}
+    >
+      <Line
+        updateMode="resize"
+        options={options as any}
+        data={data}
+        style={{
+          display: 'flex',
+          flexDirection: 'column',
+          maxWidth: '500px',
+          maxHeight: '300px',
+        }}
+      />
     </Box>
   );
-
 };
 
 export default WindGraph;
