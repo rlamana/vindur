@@ -115,7 +115,7 @@ const WindGraph: React.FC<WindGraphProps> = ({ intervals }) => {
   }, [intervals]);
 
   return (
-    <Line options={options} data={data} />
+    <Line className={styles.WindGraph} options={options as any} data={data} />
   );
 
 };

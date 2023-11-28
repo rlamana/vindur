@@ -4,12 +4,9 @@ import { Interval } from './model/weather';
 import AirIcon from '@mui/icons-material/Air';
 import dayjs from 'dayjs';
 
-import { evaluateFlightConditions } from './evaluateFlightConditions';
+import ConditionBadge from './ConditionBadge';
 
 import styles from './NowCard.module.css';
-import { useSelector } from 'react-redux';
-import { selectConfiguration } from './state/conditionsSlice';
-import ConditionBadge from './ConditionBadge';
 
 interface NowCardProps {
   day: Interval;
