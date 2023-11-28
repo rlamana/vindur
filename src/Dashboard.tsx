@@ -18,7 +18,7 @@ import WindGraph from './WindGraph';
 import fixtures from './fixtures/weather.json';
 import Configuration from './Configuration';
 
-const USE_FIXTURES_FOR_DEV = true;
+const USE_FIXTURES_FOR_DEV = false;
 
 const timelineApiKey = 'Cldy6unrJiv47zNSnnkhvi9PP2R403uY';
 
