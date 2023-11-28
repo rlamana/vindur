@@ -1,7 +1,6 @@
 import { Line } from 'react-chartjs-2';
 import {
   Chart as ChartJS,
-  ChartOptions,
   ChartData,
   CategoryScale,
   LinearScale,
@@ -10,13 +9,28 @@ import {
   Title,
   Tooltip,
   Legend,
+  Colors,
+  Plugin,
+  Filler
 } from 'chart.js';
 import { useMemo } from 'react';
-import { Card, CardContent } from '@mui/material';
+import dayjs from 'dayjs';
 
 import { Interval } from './model/weather';
 
 import styles from './WindGraph.module.css';
+
+const CanvasBackground: Plugin<'line'> = {
+  id: 'CanvasBackground',
+  beforeDraw: (chart, _, options) => {
+    const {ctx} = chart;
+    ctx.save();
+    ctx.globalCompositeOperation = 'destination-over';
+    ctx.fillStyle = options.color || '#99ffff';
+    ctx.fillRect(0, 0, chart.width, chart.height);
+    ctx.restore();
+  }
+}
 
 ChartJS.register(
   CategoryScale,
@@ -25,7 +39,10 @@ ChartJS.register(
   LineElement,
   Title,
   Tooltip,
-  Legend
+  Legend,
+  Colors,
+  Filler,
+  CanvasBackground
 );
 
 interface WindGraphProps {
@@ -33,46 +50,72 @@ interface WindGraphProps {
 }
 
 const WindGraph: React.FC<WindGraphProps> = ({ intervals }) => {
-  const labels = ['1h', '2h', '3h', '4h', '5h', '6h', '7h', '8h', '9h', '10h', '11h', '12h'];
-
-  const options: ChartOptions<'line'> = {
+  const options = {
     responsive: true,
     plugins: {
       legend: {
-        position: 'top' as const,
+        display: false
       },
       title: {
         display: false,
+      },
+      CanvasBackground: {
+        color: '#000',
+      }
+    },
+    scales: {
+      y: {
+        beginAtZero: true,
+        max: 45,
+        grid: {
+          display: false,
+        },
+        position: 'right'
+      },
+      x: {
+        grid: {
+          display: false,
+        },
       },
     },
   };
 
   const data = useMemo<ChartData<'line'>>(() => {
+    const next12hours = intervals.slice(0, 12);
+    const labels = next12hours.map(({ startTime }) => dayjs(startTime).format('HH') + 'h');
+
     return {
       labels,
       datasets: [
         {
           label: 'Wind Gust',
-          data: intervals.map(({ values }) => values.windGust).slice(0, 12),
-          borderColor: 'rgb(255, 99, 132)',
-          backgroundColor: 'rgba(255, 99, 132, 0.5)',
+          data: next12hours.map(({ values }) => values.windGust),
+          borderColor: 'rgba(53, 162, 235, 0.5)',
+          borderDash: [5, 5],
+          borderJoinStyle: 'round',
+          borderCapStyle: 'round',
+          tension: .1,
+          pointStyle: false,
         },
         {
           label: 'Wind Speed',
-          data: intervals.map(({ values }) => values.windSpeed).slice(0, 12),
+          data: next12hours.map(({ values }) => values.windSpeed),
           borderColor: 'rgb(53, 162, 235)',
-          backgroundColor: 'rgba(53, 162, 235, 0.5)',
+          borderJoinStyle: 'round',
+          borderCapStyle: 'round',
+          tension: .1,
+          pointStyle: false,
+          fill: {
+            target: 'origin',
+            above: 'rgba(53, 162, 235, .2)'
+          }
         },
-      ],
+      ]
     }
   }, [intervals]);
 
   return (
-    <Card className={styles.WindGraph}>
-      <CardContent>
-        <Line options={options} data={data} />
-      </CardContent>
-    </Card>
+    <Line options={options} data={data} />
   );
 
 };
