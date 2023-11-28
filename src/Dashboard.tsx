@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Typography, List, Box, Divider } from '@mui/material';
+import { Typography, List, Box, Divider, LinearProgress } from '@mui/material';
 
 import fixtures from './fixtures/weather.json';
 import { Timeline, WeatherResponse } from './model/weather';
@@ -116,15 +116,20 @@ const Dashboard: React.FC = () => {
   return (
     <Box
       sx={{
-        p: 4,
         width: '100%',
         overflow: 'auto',
         height: '100vh',
-        flex: 1
+        flex: 1,
       }}
     >
       {nowInfo && todayInfo && weekInfo ? (
-        <>
+        <Box
+          sx={{
+            p: 4,
+            width: '100%',
+            height: '100vh',
+          }}
+        >
           <Typography variant="h4" sx={{ textAlign: 'right' }}>
             🛸 Flying Saucer
           </Typography>
@@ -143,9 +148,9 @@ const Dashboard: React.FC = () => {
               <DayCard key={`day-${dayIndex}`} day={day} />
             ))}
           </List>
-        </>
+        </Box>
       ) : (
-        <Typography>Loading...</Typography>
+        <LinearProgress />
       )}
     </Box>
   );
