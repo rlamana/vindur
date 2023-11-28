@@ -1,145 +1,15 @@
-import React, { useState, useEffect } from 'react';
-import { Typography, List } from '@mui/material';
+import React from 'react';
 
-import fixtures from './fixtures/weather.json';
-import { Timeline, WeatherResponse } from './model/weather';
+import Dashboard from './Dashboard';
+import Configuration from './Configuration';
 
 import styles from './App.module.css';
-import DayCard from './DayCard';
-import NowCard from './NowCard';
-import WindGraph from './WindGraph';
-
-const USE_FIXTURES_FOR_DEV = true;
-
-const timelineApiKey = 'Cldy6unrJiv47zNSnnkhvi9PP2R403uY';
-
-const getWeatherQuery = (location: GeolocationCoordinates) => {
-  const timelineBaseURL = 'https://api.tomorrow.io/v4/timelines';
-  const fields = [
-    'precipitationIntensity',
-    'precipitationType',
-    'windSpeed',
-    'windGust',
-    'windDirection',
-    'temperature',
-    'temperatureApparent',
-    'cloudCover',
-    'cloudBase',
-    'cloudCeiling',
-    'weatherCode',
-  ];
-  const units = 'metric';
-  const timesteps = ['current', '1h', '1d'];
-
-  // Configure the time frame up to 6 hours back and 15 days out
-  const now = new Date();
-  const startTime = now.toISOString();
-  const endTimeDate = new Date(now);
-  endTimeDate.setDate(now.getDate() + 5);
-  const endTime = endTimeDate.toISOString();
-
-  const url = new URL(timelineBaseURL);
-  url.searchParams.set(
-    'location',
-    `${location.latitude},${location.longitude}`
-  );
-  url.searchParams.set('fields', fields.join(','));
-  url.searchParams.set('units', units);
-  url.searchParams.set('timesteps', timesteps.join(','));
-  url.searchParams.set('startTime', startTime);
-  url.searchParams.set('endTime', endTime);
-  url.searchParams.set('apikey', timelineApiKey);
-console.log(decodeURIComponent(url.toString()))
-  return decodeURIComponent(url.toString());
-};
 
 const App: React.FC = () => {
-  const [nowInfo, setNowInfo] = useState<Timeline | null>(null);
-  const [todayInfo, setTodayInfo] = useState<Timeline | null>(null);
-  const [weekInfo, setWeekInfo] = useState<Timeline | null>(null);
-  const [location, setLocation] = useState<GeolocationCoordinates | null>(null);
-
-  useEffect(() => {
-    const fetchLocation = () => {
-      navigator.geolocation.getCurrentPosition(
-        (position) => {
-          setLocation(position.coords);
-        },
-        (error) => {
-          console.error('Error getting location:', error);
-        }
-      );
-    };
-
-    fetchLocation();
-  }, []);
-
-  useEffect(() => {
-    const fetchData = async () => {
-      if (!location) {
-        return;
-      }
-
-      try {
-        let weatherResponse: WeatherResponse;
-        if (USE_FIXTURES_FOR_DEV) {
-          weatherResponse = fixtures;
-        } else {
-          const response = await fetch(getWeatherQuery(location));
-          if (!response.ok) {
-            throw new Error('Failed to fetch weather data');
-          }
-          weatherResponse = await response.json();
-        }
-        const now =
-          weatherResponse.data?.timelines.find(
-            (timeline) => timeline.timestep === 'current'
-          ) ?? null;
-        const today =
-          weatherResponse.data?.timelines.find(
-            (timeline) => timeline.timestep === '1h'
-          ) ?? null;
-        const week =
-          weatherResponse.data?.timelines.find(
-            (timeline) => timeline.timestep === '1d'
-          ) ?? null;
-        setNowInfo(now);
-        setTodayInfo(today);
-        setWeekInfo(week);
-      } catch (error) {
-        console.error('Error fetching weather data:', error);
-      }
-    };
-
-    fetchData();
-  }, [location]);
-
   return (
     <div className={styles.App}>
-      <Typography variant="h3">7-Day Flying Conditions</Typography>
-
-      <Typography variant="h5">Now</Typography>
-      {nowInfo?.intervals ? (
-        <NowCard day={nowInfo.intervals[0]} />
-      ) : (
-        <Typography>Loading...</Typography>
-      )}
-
-      <Typography variant="h5">Today</Typography>
-      {todayInfo?.intervals && (
-        <List>
-          <WindGraph intervals={todayInfo.intervals} />
-        </List>
-      )}
-
-      <Typography variant="h5">Week</Typography>
-      {weekInfo?.intervals && (
-        <List>
-          {weekInfo.intervals.map((day, dayIndex) => (
-            <DayCard key={`day-${dayIndex}`} day={day} />
-          ))}
-        </List>
-      )}
+      <Dashboard />
+      <Configuration />
     </div>
   );
 };
