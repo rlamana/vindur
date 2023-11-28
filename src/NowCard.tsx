@@ -1,20 +1,19 @@
 import React from 'react';
-import { ListItemIcon, CardContent, Card, Typography } from '@mui/material';
+import { ListItemIcon, CardContent, Card, Typography, useTheme } from '@mui/material';
 import { Interval } from './model/weather';
 import AirIcon from '@mui/icons-material/Air';
 import dayjs from 'dayjs';
 
 import ConditionBadge from './ConditionBadge';
 
-import styles from './NowCard.module.css';
-
 interface NowCardProps {
   day: Interval;
 }
 
 const NowCard: React.FC<NowCardProps> = ({ day }) => {
+  const theme = useTheme();
   return (
-    <Card className={styles.NowCard}>
+    <Card>
       <CardContent>
         <ListItemIcon>
           <AirIcon />
