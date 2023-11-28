@@ -17,7 +17,9 @@ const Configuration: React.FC = () => {
 
   return (
     <Box sx={{
-      p: 4
+      p: 4,
+      overflow: 'auto',
+      height: '100vh'
     }}>
       <Typography variant="h6">Conditions Configurator</Typography>
       <Divider sx={{ my: 2 }} />

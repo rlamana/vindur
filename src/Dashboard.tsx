@@ -118,6 +118,9 @@ const Dashboard: React.FC = () => {
       sx={{
         p: 4,
         width: '100%',
+        overflow: 'auto',
+        height: '100vh',
+        flex: 1
       }}
     >
       {nowInfo && todayInfo && weekInfo ? (

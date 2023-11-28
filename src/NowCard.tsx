@@ -1,6 +1,5 @@
 import React from 'react';
 import {
-  ListItemIcon,
   CardContent,
   Card,
   Typography,
@@ -8,7 +7,6 @@ import {
 } from '@mui/material';
 import { Interval } from './model/weather';
 import AirIcon from '@mui/icons-material/Air';
-import dayjs from 'dayjs';
 
 import ConditionBadge from './ConditionBadge';
 

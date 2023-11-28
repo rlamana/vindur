@@ -12,6 +12,8 @@ const App: React.FC = () => {
         m: 0,
         display: 'flex',
         flexDirection: 'row',
+        width: '100%',
+        height: '100%',
       }}
     >
       <Dashboard />
