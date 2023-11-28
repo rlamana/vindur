@@ -17,6 +17,7 @@ import { useMemo } from 'react';
 import dayjs from 'dayjs';
 
 import { Interval } from './model/weather';
+import { Box } from '@mui/material';
 
 const CanvasBackground: Plugin<'line'> = {
   id: 'CanvasBackground',
@@ -113,7 +114,13 @@ const WindGraph: React.FC<WindGraphProps> = ({ intervals }) => {
   }, [intervals]);
 
   return (
-    <Line options={options as any} data={data} />
+    <Box sx={{ display: 'flex' }}>
+      <Line options={options as any} data={data} style={{
+        display: 'flex',
+        width: '100%',
+        height: '100%'
+       }}/>
+    </Box>
   );
 
 };

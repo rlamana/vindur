@@ -1,5 +1,11 @@
 import React from 'react';
-import { ListItemIcon, CardContent, Card, Typography } from '@mui/material';
+import {
+  ListItemIcon,
+  CardContent,
+  Card,
+  Typography,
+  Box,
+} from '@mui/material';
 import { Interval } from './model/weather';
 import AirIcon from '@mui/icons-material/Air';
 import dayjs from 'dayjs';
@@ -12,22 +18,28 @@ interface NowCardProps {
 
 const NowCard: React.FC<NowCardProps> = ({ day }) => {
   return (
-    <Card>
+    <Card
+      sx={{
+        backgroundImage: 'none',
+        width: '100%',
+      }}
+    >
       <CardContent>
-        <ListItemIcon>
-          <AirIcon />
-        </ListItemIcon>
-        <Typography variant="h6">
-          {dayjs(day.startTime).format('dddd')}
-        </Typography>
-        <ConditionBadge interval={day} />
-        <Typography variant="body2">
-          {dayjs(day.startTime).format('MMMM D, YYYY')}
-        </Typography>
-        <Typography>
-          Wind Speed: {day.values.windSpeed} m/s | Wind Direction:{' '}
-          {day.values.windDirection}° | Wind Gust: {day.values.windGust} m/s
-        </Typography>
+        <Box
+          sx={{
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            gap: 1,
+          }}
+        >
+          <ConditionBadge interval={day} size="64px" />
+          <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+            <AirIcon />
+            <Typography>Speed: {day.values.windSpeed} m/s</Typography>
+            <Typography>Gust: {day.values.windGust} m/s</Typography>
+          </Box>
+        </Box>
       </CardContent>
     </Card>
   );

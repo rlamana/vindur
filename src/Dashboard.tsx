@@ -127,27 +127,19 @@ const Dashboard: React.FC = () => {
           </Typography>
 
           <Typography variant="h5">Now</Typography>
-          {nowInfo?.intervals ? (
-            <NowCard day={nowInfo.intervals[0]} />
-          ) : (
-            <Typography>Loading...</Typography>
-          )}
 
-          <Typography variant="h5">Today</Typography>
-          {todayInfo?.intervals && (
-            <List>
-              <WindGraph intervals={todayInfo.intervals} />
-            </List>
-          )}
+          <NowCard day={nowInfo.intervals[0]} />
+
+          <List>
+            <WindGraph intervals={todayInfo.intervals} />
+          </List>
           <Divider sx={{ my: 2 }} />
           <Typography variant="h5">Week</Typography>
-          {weekInfo?.intervals && (
-            <List>
-              {weekInfo.intervals.map((day, dayIndex) => (
-                <DayCard key={`day-${dayIndex}`} day={day} />
-              ))}
-            </List>
-          )}
+          <List>
+            {weekInfo.intervals.map((day, dayIndex) => (
+              <DayCard key={`day-${dayIndex}`} day={day} />
+            ))}
+          </List>
         </>
       ) : (
         <Typography>Loading...</Typography>

@@ -1,26 +1,26 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
-import { Typography } from '@mui/material';
+import { Box, Typography } from '@mui/material';
 
 import { Interval } from './model/weather';
 import { evaluateFlightConditions } from './evaluateFlightConditions';
 import { selectConfiguration } from './state/conditionsSlice';
 import {
-  CheckCircleRounded,
   DangerousRounded,
+  RecommendRounded,
   WarningRounded,
 } from '@mui/icons-material';
 
 type ConditionBadgeProps = {
   interval: Interval;
   withLabel?: boolean;
-  size?: 'small' | 'inherit' | 'large' | 'medium' | undefined;
+  size?: string;
 };
 
 const ConditionBadge: React.FC<ConditionBadgeProps> = ({
   interval,
   withLabel = false,
-  size = 'medium',
+  size = '24px',
 }) => {
   const configuration = useSelector(selectConfiguration);
 
@@ -34,17 +34,17 @@ const ConditionBadge: React.FC<ConditionBadgeProps> = ({
     case 'bad':
       color = 'red';
       label = 'Ni se te ocurra!';
-      icon = <DangerousRounded fontSize={size} />;
+      icon = <DangerousRounded fontSize="inherit" />;
       break;
     case 'good':
       color = 'green';
       label = 'A volar!!!';
-      icon = <CheckCircleRounded fontSize={size} />;
+      icon = <RecommendRounded fontSize="inherit" />;
       break;
     case 'average':
       color = 'orange';
       label = 'Regulinchis';
-      icon = <WarningRounded fontSize={size} />;
+      icon = <WarningRounded fontSize="inherit" />;
       break;
     default:
       color = 'black';
@@ -53,7 +53,7 @@ const ConditionBadge: React.FC<ConditionBadgeProps> = ({
 
   return (
     <>
-      <span style={{ color }}>{icon}</span>
+      <Box sx={{ color, display: 'flex', fontSize: size }}>{icon}</Box>
       {withLabel && (
         <Typography
           variant="h3"
