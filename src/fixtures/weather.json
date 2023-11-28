@@ -9,280 +9,120 @@
                   {
                       "startTime": "2023-11-28T05:00:00Z",
                       "values": {
-                          "cloudBase": 0.93,
-                          "cloudCeiling": 9.16,
+                          "cloudBase": 0.47,
+                          "cloudCeiling": 0.47,
                           "cloudCover": 100,
-                          "precipitationIntensity": 4.22,
+                          "precipitationIntensity": 0.01,
                           "precipitationType": 1,
-                          "temperature": 12.56,
-                          "temperatureApparent": 12.56,
+                          "temperature": 12.88,
+                          "temperatureApparent": 12.88,
                           "weatherCode": 2000,
-                          "windDirection": 217.33,
-                          "windGust": 7.85,
-                          "windSpeed": 3.81
+                          "windDirection": 217.56,
+                          "windGust": 8,
+                          "windSpeed": 3.63
                       }
                   },
                   {
                       "startTime": "2023-11-29T05:00:00Z",
                       "values": {
-                          "cloudBase": 0.53,
-                          "cloudCeiling": 9.65,
+                          "cloudBase": 0.48,
+                          "cloudCeiling": 9.06,
                           "cloudCover": 100,
-                          "precipitationIntensity": 0.14,
+                          "precipitationIntensity": 0.13,
                           "precipitationType": 1,
-                          "temperature": 13.47,
-                          "temperatureApparent": 13.47,
+                          "temperature": 14.17,
+                          "temperatureApparent": 14.17,
                           "weatherCode": 1001,
-                          "windDirection": 220.38,
-                          "windGust": 11.93,
-                          "windSpeed": 6.14
+                          "windDirection": 221.45,
+                          "windGust": 11.14,
+                          "windSpeed": 5.74
                       }
                   },
                   {
                       "startTime": "2023-11-30T05:00:00Z",
                       "values": {
-                          "cloudBase": 1.53,
-                          "cloudCeiling": 4.46,
+                          "cloudBase": 1.7,
+                          "cloudCeiling": 2.2,
                           "cloudCover": 100,
-                          "precipitationIntensity": 5.2,
+                          "precipitationIntensity": 8.04,
                           "precipitationType": 1,
-                          "temperature": 12.03,
-                          "temperatureApparent": 12.03,
-                          "weatherCode": 4200,
-                          "windDirection": 250.06,
-                          "windGust": 11.27,
-                          "windSpeed": 5.86
+                          "temperature": 12.57,
+                          "temperatureApparent": 12.57,
+                          "weatherCode": 4001,
+                          "windDirection": 235.59,
+                          "windGust": 13.24,
+                          "windSpeed": 6.84
                       }
                   },
                   {
                       "startTime": "2023-12-01T05:00:00Z",
                       "values": {
-                          "cloudBase": 1.15,
-                          "cloudCeiling": 0.55,
-                          "cloudCover": 78.91,
-                          "precipitationIntensity": 0,
+                          "cloudBase": 2.69,
+                          "cloudCeiling": 3.99,
+                          "cloudCover": 100,
+                          "precipitationIntensity": 0.17,
                           "precipitationType": 1,
-                          "temperature": 9.37,
-                          "temperatureApparent": 9.37,
-                          "weatherCode": 1100,
-                          "windDirection": 289.75,
-                          "windGust": 11.05,
-                          "windSpeed": 5
+                          "temperature": 9.83,
+                          "temperatureApparent": 9.83,
+                          "weatherCode": 1000,
+                          "windDirection": 312.76,
+                          "windGust": 8.47,
+                          "windSpeed": 4.85
                       }
                   },
                   {
                       "startTime": "2023-12-02T05:00:00Z",
                       "values": {
-                          "cloudBase": 5.81,
+                          "cloudBase": 3.69,
                           "cloudCeiling": 0,
-                          "cloudCover": 83.27,
-                          "precipitationIntensity": 0,
+                          "cloudCover": 100,
+                          "precipitationIntensity": 0.03,
                           "precipitationType": 1,
-                          "temperature": 9.13,
-                          "temperatureApparent": 9.13,
-                          "weatherCode": 1000,
-                          "windDirection": 294.58,
-                          "windGust": 8.15,
-                          "windSpeed": 4.87
+                          "temperature": 9.94,
+                          "temperatureApparent": 9.94,
+                          "weatherCode": 1001,
+                          "windDirection": 299.08,
+                          "windGust": 9.88,
+                          "windSpeed": 6.24
                       }
                   },
                   {
                       "startTime": "2023-12-03T05:00:00Z",
                       "values": {
-                          "cloudBase": 5.34,
+                          "cloudBase": 6.05,
                           "cloudCeiling": 0,
                           "cloudCover": 100,
                           "precipitationIntensity": 0,
-                          "precipitationType": 0,
-                          "temperature": 7.44,
-                          "temperatureApparent": 7.44,
+                          "precipitationType": 1,
+                          "temperature": 7.66,
+                          "temperatureApparent": 7.66,
                           "weatherCode": 1001,
-                          "windDirection": 215.83,
-                          "windGust": 1.84,
-                          "windSpeed": 1.84
+                          "windDirection": 214.19,
+                          "windGust": 4.22,
+                          "windSpeed": 3.44
                       }
                   }
               ]
           },
           {
               "timestep": "1h",
-              "endTime": "2023-12-03T12:00:00Z",
-              "startTime": "2023-11-28T12:00:00Z",
+              "endTime": "2023-12-03T22:00:00Z",
+              "startTime": "2023-11-28T22:00:00Z",
               "intervals": [
-                  {
-                      "startTime": "2023-11-28T12:00:00Z",
-                      "values": {
-                          "cloudBase": 0.39,
-                          "cloudCeiling": 0.39,
-                          "cloudCover": 94,
-                          "precipitationIntensity": 0,
-                          "precipitationType": 1,
-                          "temperature": 12.13,
-                          "temperatureApparent": 12.13,
-                          "weatherCode": 1001,
-                          "windDirection": 213.31,
-                          "windGust": 7.63,
-                          "windSpeed": 3.31
-                      }
-                  },
-                  {
-                      "startTime": "2023-11-28T13:00:00Z",
-                      "values": {
-                          "cloudBase": 0.27,
-                          "cloudCeiling": 1.14,
-                          "cloudCover": 91.41,
-                          "precipitationIntensity": 0,
-                          "precipitationType": 0,
-                          "temperature": 11.95,
-                          "temperatureApparent": 11.95,
-                          "weatherCode": 1001,
-                          "windDirection": 211.11,
-                          "windGust": 7.44,
-                          "windSpeed": 3.38
-                      }
-                  },
-                  {
-                      "startTime": "2023-11-28T14:00:00Z",
-                      "values": {
-                          "cloudBase": 0.29,
-                          "cloudCeiling": 9.16,
-                          "cloudCover": 97.66,
-                          "precipitationIntensity": 4.22,
-                          "precipitationType": 1,
-                          "temperature": 12.56,
-                          "temperatureApparent": 12.56,
-                          "weatherCode": 4001,
-                          "windDirection": 206.7,
-                          "windGust": 7.58,
-                          "windSpeed": 3.42
-                      }
-                  },
-                  {
-                      "startTime": "2023-11-28T15:00:00Z",
-                      "values": {
-                          "cloudBase": 0.72,
-                          "cloudCeiling": null,
-                          "cloudCover": 54.69,
-                          "precipitationIntensity": 0,
-                          "precipitationType": 0,
-                          "temperature": 12.07,
-                          "temperatureApparent": 12.07,
-                          "weatherCode": 1101,
-                          "windDirection": 210.43,
-                          "windGust": 7.85,
-                          "windSpeed": 3.81
-                      }
-                  },
-                  {
-                      "startTime": "2023-11-28T16:00:00Z",
-                      "values": {
-                          "cloudBase": 0.93,
-                          "cloudCeiling": null,
-                          "cloudCover": 32.03,
-                          "precipitationIntensity": 0,
-                          "precipitationType": 1,
-                          "temperature": 11.28,
-                          "temperatureApparent": 11.28,
-                          "weatherCode": 1100,
-                          "windDirection": 211.1,
-                          "windGust": 6.42,
-                          "windSpeed": 3.24
-                      }
-                  },
-                  {
-                      "startTime": "2023-11-28T17:00:00Z",
-                      "values": {
-                          "cloudBase": 0.16,
-                          "cloudCeiling": null,
-                          "cloudCover": 11.72,
-                          "precipitationIntensity": 0,
-                          "precipitationType": 1,
-                          "temperature": 9.27,
-                          "temperatureApparent": 9.27,
-                          "weatherCode": 1000,
-                          "windDirection": 214.16,
-                          "windGust": 4.25,
-                          "windSpeed": 2.3
-                      }
-                  },
-                  {
-                      "startTime": "2023-11-28T18:00:00Z",
-                      "values": {
-                          "cloudBase": 0.12,
-                          "cloudCeiling": null,
-                          "cloudCover": 21.09,
-                          "precipitationIntensity": 0,
-                          "precipitationType": 1,
-                          "temperature": 8.31,
-                          "temperatureApparent": 8.31,
-                          "weatherCode": 1100,
-                          "windDirection": 226.76,
-                          "windGust": 3.57,
-                          "windSpeed": 1.97
-                      }
-                  },
-                  {
-                      "startTime": "2023-11-28T19:00:00Z",
-                      "values": {
-                          "cloudBase": 0.04,
-                          "cloudCeiling": 0.04,
-                          "cloudCover": 82.81,
-                          "precipitationIntensity": 0,
-                          "precipitationType": 1,
-                          "temperature": 7.65,
-                          "temperatureApparent": 7.65,
-                          "weatherCode": 1001,
-                          "windDirection": 233.31,
-                          "windGust": 3.54,
-                          "windSpeed": 2.03
-                      }
-                  },
-                  {
-                      "startTime": "2023-11-28T20:00:00Z",
-                      "values": {
-                          "cloudBase": 0.03,
-                          "cloudCeiling": 0.59,
-                          "cloudCover": 96.88,
-                          "precipitationIntensity": 0,
-                          "precipitationType": 1,
-                          "temperature": 7.19,
-                          "temperatureApparent": 7.19,
-                          "weatherCode": 2100,
-                          "windDirection": 234.16,
-                          "windGust": 3.46,
-                          "windSpeed": 2.02
-                      }
-                  },
-                  {
-                      "startTime": "2023-11-28T21:00:00Z",
-                      "values": {
-                          "cloudBase": 0.03,
-                          "cloudCeiling": 0.04,
-                          "cloudCover": 100,
-                          "precipitationIntensity": 0.01,
-                          "precipitationType": 1,
-                          "temperature": 8.42,
-                          "temperatureApparent": 8.42,
-                          "weatherCode": 2000,
-                          "windDirection": 222.27,
-                          "windGust": 3.89,
-                          "windSpeed": 2.19
-                      }
-                  },
                   {
                       "startTime": "2023-11-28T22:00:00Z",
                       "values": {
-                          "cloudBase": 0.03,
-                          "cloudCeiling": 0.03,
-                          "cloudCover": 96.09,
+                          "cloudBase": 0.32,
+                          "cloudCeiling": 0.32,
+                          "cloudCover": 98,
                           "precipitationIntensity": 0,
                           "precipitationType": 1,
-                          "temperature": 8.77,
-                          "temperatureApparent": 8.77,
+                          "temperature": 8.38,
+                          "temperatureApparent": 8.38,
                           "weatherCode": 2000,
-                          "windDirection": 219.78,
-                          "windGust": 3.86,
-                          "windSpeed": 2.19
+                          "windDirection": 200.81,
+                          "windGust": 5.38,
+                          "windSpeed": 0.38
                       }
                   },
                   {
@@ -290,15 +130,15 @@
                       "values": {
                           "cloudBase": 0.03,
                           "cloudCeiling": 0.03,
-                          "cloudCover": 96.09,
+                          "cloudCover": 99.22,
                           "precipitationIntensity": 0,
-                          "precipitationType": 1,
-                          "temperature": 7.92,
-                          "temperatureApparent": 7.92,
+                          "precipitationType": 0,
+                          "temperature": 9.34,
+                          "temperatureApparent": 9.34,
                           "weatherCode": 2000,
-                          "windDirection": 219,
-                          "windGust": 3.9,
-                          "windSpeed": 2.18
+                          "windDirection": 224.07,
+                          "windGust": 4.96,
+                          "windSpeed": 2.74
                       }
                   },
                   {
@@ -306,15 +146,15 @@
                       "values": {
                           "cloudBase": 0.03,
                           "cloudCeiling": 0.03,
-                          "cloudCover": 98.44,
+                          "cloudCover": 99.22,
                           "precipitationIntensity": 0,
-                          "precipitationType": 1,
-                          "temperature": 8.49,
-                          "temperatureApparent": 8.49,
+                          "precipitationType": 0,
+                          "temperature": 9.67,
+                          "temperatureApparent": 9.67,
                           "weatherCode": 2000,
-                          "windDirection": 215.44,
-                          "windGust": 3.93,
-                          "windSpeed": 2.18
+                          "windDirection": 225.53,
+                          "windGust": 6.05,
+                          "windSpeed": 3.3
                       }
                   },
                   {
@@ -322,15 +162,15 @@
                       "values": {
                           "cloudBase": 0.03,
                           "cloudCeiling": 0.03,
-                          "cloudCover": 96.88,
+                          "cloudCover": 100,
                           "precipitationIntensity": 0,
-                          "precipitationType": 1,
-                          "temperature": 8.95,
-                          "temperatureApparent": 8.95,
+                          "precipitationType": 0,
+                          "temperature": 9.77,
+                          "temperatureApparent": 9.77,
                           "weatherCode": 2000,
-                          "windDirection": 194.03,
-                          "windGust": 3.77,
-                          "windSpeed": 2.07
+                          "windDirection": 228.8,
+                          "windGust": 6.06,
+                          "windSpeed": 3.3
                       }
                   },
                   {
@@ -338,15 +178,15 @@
                       "values": {
                           "cloudBase": 0.03,
                           "cloudCeiling": 0.03,
-                          "cloudCover": 96.88,
+                          "cloudCover": 100,
                           "precipitationIntensity": 0,
                           "precipitationType": 1,
-                          "temperature": 9.06,
-                          "temperatureApparent": 9.06,
+                          "temperature": 9.8,
+                          "temperatureApparent": 9.8,
                           "weatherCode": 2000,
-                          "windDirection": 230.87,
-                          "windGust": 4.14,
-                          "windSpeed": 2.25
+                          "windDirection": 232.23,
+                          "windGust": 4.75,
+                          "windSpeed": 2.57
                       }
                   },
                   {
@@ -354,31 +194,31 @@
                       "values": {
                           "cloudBase": 0.03,
                           "cloudCeiling": 0.03,
-                          "cloudCover": 96.88,
+                          "cloudCover": 100,
                           "precipitationIntensity": 0,
                           "precipitationType": 1,
-                          "temperature": 9.21,
-                          "temperatureApparent": 9.21,
+                          "temperature": 9.45,
+                          "temperatureApparent": 9.45,
                           "weatherCode": 2000,
-                          "windDirection": 232.91,
-                          "windGust": 4.11,
-                          "windSpeed": 2.22
+                          "windDirection": 236.5,
+                          "windGust": 3.88,
+                          "windSpeed": 2.07
                       }
                   },
                   {
                       "startTime": "2023-11-29T04:00:00Z",
                       "values": {
                           "cloudBase": 0.03,
-                          "cloudCeiling": 0.03,
+                          "cloudCeiling": 0.05,
                           "cloudCover": 100,
-                          "precipitationIntensity": 0,
+                          "precipitationIntensity": 0.01,
                           "precipitationType": 1,
-                          "temperature": 9.69,
-                          "temperatureApparent": 9.69,
+                          "temperature": 9.55,
+                          "temperatureApparent": 9.55,
                           "weatherCode": 2000,
-                          "windDirection": 227.3,
-                          "windGust": 4.13,
-                          "windSpeed": 2.17
+                          "windDirection": 230.09,
+                          "windGust": 3.67,
+                          "windSpeed": 1.95
                       }
                   },
                   {
@@ -387,14 +227,14 @@
                           "cloudBase": 0.03,
                           "cloudCeiling": 0.03,
                           "cloudCover": 100,
-                          "precipitationIntensity": 0,
+                          "precipitationIntensity": 0.07,
                           "precipitationType": 1,
-                          "temperature": 9.77,
-                          "temperatureApparent": 9.77,
+                          "temperature": 9.91,
+                          "temperatureApparent": 9.91,
                           "weatherCode": 2000,
-                          "windDirection": 228.96,
-                          "windGust": 5.02,
-                          "windSpeed": 2.65
+                          "windDirection": 215.07,
+                          "windGust": 3.63,
+                          "windSpeed": 1.9
                       }
                   },
                   {
@@ -403,14 +243,14 @@
                           "cloudBase": 0.03,
                           "cloudCeiling": 0.03,
                           "cloudCover": 100,
-                          "precipitationIntensity": 0.14,
+                          "precipitationIntensity": 0.08,
                           "precipitationType": 1,
-                          "temperature": 10.02,
-                          "temperatureApparent": 10.02,
-                          "weatherCode": 2100,
-                          "windDirection": 219.67,
-                          "windGust": 5.34,
-                          "windSpeed": 2.81
+                          "temperature": 10.29,
+                          "temperatureApparent": 10.29,
+                          "weatherCode": 2000,
+                          "windDirection": 212,
+                          "windGust": 4.44,
+                          "windSpeed": 2.35
                       }
                   },
                   {
@@ -419,862 +259,862 @@
                           "cloudBase": 0.03,
                           "cloudCeiling": 0.04,
                           "cloudCover": 100,
-                          "precipitationIntensity": 0.01,
+                          "precipitationIntensity": 0.03,
                           "precipitationType": 1,
-                          "temperature": 9.81,
-                          "temperatureApparent": 9.81,
-                          "weatherCode": 2100,
-                          "windDirection": 220.69,
-                          "windGust": 5.81,
-                          "windSpeed": 3.07
+                          "temperature": 10.41,
+                          "temperatureApparent": 10.41,
+                          "weatherCode": 2000,
+                          "windDirection": 210.77,
+                          "windGust": 5.47,
+                          "windSpeed": 2.91
                       }
                   },
                   {
                       "startTime": "2023-11-29T08:00:00Z",
                       "values": {
                           "cloudBase": 0.03,
-                          "cloudCeiling": 0.05,
+                          "cloudCeiling": 0.06,
                           "cloudCover": 100,
-                          "precipitationIntensity": 0.04,
+                          "precipitationIntensity": 0.01,
                           "precipitationType": 1,
-                          "temperature": 10.1,
-                          "temperatureApparent": 10.1,
-                          "weatherCode": 2100,
-                          "windDirection": 205.86,
-                          "windGust": 5.21,
-                          "windSpeed": 2.8
+                          "temperature": 10.59,
+                          "temperatureApparent": 10.59,
+                          "weatherCode": 1001,
+                          "windDirection": 211.33,
+                          "windGust": 5.73,
+                          "windSpeed": 3.12
                       }
                   },
                   {
                       "startTime": "2023-11-29T09:00:00Z",
                       "values": {
-                          "cloudBase": 0.04,
-                          "cloudCeiling": 0.08,
+                          "cloudBase": 0.03,
+                          "cloudCeiling": 0.05,
                           "cloudCover": 100,
-                          "precipitationIntensity": 0.04,
+                          "precipitationIntensity": 0.05,
                           "precipitationType": 1,
-                          "temperature": 10.46,
-                          "temperatureApparent": 10.46,
+                          "temperature": 10.79,
+                          "temperatureApparent": 10.79,
                           "weatherCode": 1001,
-                          "windDirection": 208.66,
-                          "windGust": 6.36,
-                          "windSpeed": 3.44
+                          "windDirection": 212.36,
+                          "windGust": 6.63,
+                          "windSpeed": 3.73
                       }
                   },
                   {
                       "startTime": "2023-11-29T10:00:00Z",
                       "values": {
-                          "cloudBase": 0.07,
-                          "cloudCeiling": 0.16,
+                          "cloudBase": 0.04,
+                          "cloudCeiling": 0.09,
                           "cloudCover": 100,
-                          "precipitationIntensity": 0.02,
+                          "precipitationIntensity": 0.04,
                           "precipitationType": 1,
-                          "temperature": 10.83,
-                          "temperatureApparent": 10.83,
+                          "temperature": 11.15,
+                          "temperatureApparent": 11.15,
                           "weatherCode": 1001,
-                          "windDirection": 209.11,
-                          "windGust": 7.79,
-                          "windSpeed": 4.01
+                          "windDirection": 211.09,
+                          "windGust": 7.39,
+                          "windSpeed": 3.95
                       }
                   },
                   {
                       "startTime": "2023-11-29T11:00:00Z",
                       "values": {
-                          "cloudBase": 0.14,
-                          "cloudCeiling": 0.21,
+                          "cloudBase": 0.07,
+                          "cloudCeiling": 0.14,
                           "cloudCover": 100,
-                          "precipitationIntensity": 0.06,
+                          "precipitationIntensity": 0.13,
                           "precipitationType": 1,
-                          "temperature": 11.41,
-                          "temperatureApparent": 11.41,
+                          "temperature": 11.75,
+                          "temperatureApparent": 11.75,
                           "weatherCode": 1001,
-                          "windDirection": 215.12,
-                          "windGust": 9.04,
-                          "windSpeed": 4.53
+                          "windDirection": 212.16,
+                          "windGust": 9.27,
+                          "windSpeed": 4.7
                       }
                   },
                   {
                       "startTime": "2023-11-29T12:00:00Z",
                       "values": {
-                          "cloudBase": 0.12,
-                          "cloudCeiling": 0.18,
-                          "cloudCover": 100,
-                          "precipitationIntensity": 0.02,
+                          "cloudBase": 0.24,
+                          "cloudCeiling": 3.61,
+                          "cloudCover": 82.81,
+                          "precipitationIntensity": 0.12,
                           "precipitationType": 1,
-                          "temperature": 11.53,
-                          "temperatureApparent": 11.53,
+                          "temperature": 12.55,
+                          "temperatureApparent": 12.55,
                           "weatherCode": 1001,
-                          "windDirection": 216.69,
-                          "windGust": 9.52,
-                          "windSpeed": 4.88
+                          "windDirection": 228.15,
+                          "windGust": 9.71,
+                          "windSpeed": 5.15
                       }
                   },
                   {
                       "startTime": "2023-11-29T13:00:00Z",
                       "values": {
-                          "cloudBase": 0.23,
-                          "cloudCeiling": 0.55,
-                          "cloudCover": 86.72,
-                          "precipitationIntensity": 0.08,
+                          "cloudBase": 0.48,
+                          "cloudCeiling": 0.77,
+                          "cloudCover": 99.22,
+                          "precipitationIntensity": 0,
                           "precipitationType": 1,
-                          "temperature": 12.33,
-                          "temperatureApparent": 12.33,
+                          "temperature": 14.11,
+                          "temperatureApparent": 14.11,
                           "weatherCode": 1001,
-                          "windDirection": 233.24,
-                          "windGust": 10.71,
-                          "windSpeed": 5.6
+                          "windDirection": 234.25,
+                          "windGust": 10.38,
+                          "windSpeed": 5.23
                       }
                   },
                   {
                       "startTime": "2023-11-29T14:00:00Z",
                       "values": {
-                          "cloudBase": 0.27,
+                          "cloudBase": 0.46,
                           "cloudCeiling": null,
-                          "cloudCover": 84.38,
+                          "cloudCover": 82.03,
                           "precipitationIntensity": 0,
                           "precipitationType": 1,
-                          "temperature": 13.46,
-                          "temperatureApparent": 13.46,
+                          "temperature": 14.17,
+                          "temperatureApparent": 14.17,
                           "weatherCode": 1001,
-                          "windDirection": 226.12,
-                          "windGust": 10.51,
-                          "windSpeed": 5.33
+                          "windDirection": 230.34,
+                          "windGust": 10.64,
+                          "windSpeed": 5.42
                       }
                   },
                   {
                       "startTime": "2023-11-29T15:00:00Z",
                       "values": {
-                          "cloudBase": 0.37,
-                          "cloudCeiling": null,
-                          "cloudCover": 82.03,
+                          "cloudBase": 0.39,
+                          "cloudCeiling": 0.53,
+                          "cloudCover": 99.22,
                           "precipitationIntensity": 0,
                           "precipitationType": 1,
-                          "temperature": 13.47,
-                          "temperatureApparent": 13.47,
+                          "temperature": 13.89,
+                          "temperatureApparent": 13.89,
                           "weatherCode": 1001,
-                          "windDirection": 230.77,
-                          "windGust": 11.93,
-                          "windSpeed": 6.14
+                          "windDirection": 230.56,
+                          "windGust": 11.14,
+                          "windSpeed": 5.74
                       }
                   },
                   {
                       "startTime": "2023-11-29T16:00:00Z",
                       "values": {
-                          "cloudBase": 0.35,
-                          "cloudCeiling": 0.62,
-                          "cloudCover": 73.44,
+                          "cloudBase": 0.44,
+                          "cloudCeiling": null,
+                          "cloudCover": 55.47,
                           "precipitationIntensity": 0,
                           "precipitationType": 1,
-                          "temperature": 12.96,
-                          "temperatureApparent": 12.96,
-                          "weatherCode": 1102,
-                          "windDirection": 225.11,
-                          "windGust": 8.71,
-                          "windSpeed": 4.55
+                          "temperature": 13.48,
+                          "temperatureApparent": 13.48,
+                          "weatherCode": 1101,
+                          "windDirection": 224.58,
+                          "windGust": 8.97,
+                          "windSpeed": 4.69
                       }
                   },
                   {
                       "startTime": "2023-11-29T17:00:00Z",
                       "values": {
-                          "cloudBase": 0.53,
-                          "cloudCeiling": 9.65,
-                          "cloudCover": 96.88,
+                          "cloudBase": 0.39,
+                          "cloudCeiling": 9.06,
+                          "cloudCover": 64.06,
                           "precipitationIntensity": 0,
                           "precipitationType": 1,
-                          "temperature": 12.42,
-                          "temperatureApparent": 12.42,
-                          "weatherCode": 1001,
-                          "windDirection": 223.46,
-                          "windGust": 8.21,
-                          "windSpeed": 4.28
+                          "temperature": 12.6,
+                          "temperatureApparent": 12.6,
+                          "weatherCode": 1102,
+                          "windDirection": 219.5,
+                          "windGust": 8.25,
+                          "windSpeed": 4.3
                       }
                   },
                   {
                       "startTime": "2023-11-29T18:00:00Z",
                       "values": {
-                          "cloudBase": 0.2,
-                          "cloudCeiling": 0.29,
+                          "cloudBase": 0.29,
+                          "cloudCeiling": 0.37,
                           "cloudCover": 100,
-                          "precipitationIntensity": 0,
+                          "precipitationIntensity": 0.02,
                           "precipitationType": 1,
-                          "temperature": 12.11,
-                          "temperatureApparent": 12.11,
+                          "temperature": 11.68,
+                          "temperatureApparent": 11.68,
                           "weatherCode": 1001,
-                          "windDirection": 221.4,
-                          "windGust": 7.68,
-                          "windSpeed": 4
+                          "windDirection": 223.21,
+                          "windGust": 7.92,
+                          "windSpeed": 4.15
                       }
                   },
                   {
                       "startTime": "2023-11-29T19:00:00Z",
                       "values": {
-                          "cloudBase": 0.18,
-                          "cloudCeiling": 0.23,
+                          "cloudBase": 0.15,
+                          "cloudCeiling": 0.17,
                           "cloudCover": 100,
-                          "precipitationIntensity": 0.01,
+                          "precipitationIntensity": 0.02,
                           "precipitationType": 1,
-                          "temperature": 11.87,
-                          "temperatureApparent": 11.87,
+                          "temperature": 12.16,
+                          "temperatureApparent": 12.16,
                           "weatherCode": 1001,
-                          "windDirection": 225.37,
-                          "windGust": 8,
-                          "windSpeed": 4.16
+                          "windDirection": 225.7,
+                          "windGust": 8.68,
+                          "windSpeed": 4.51
                       }
                   },
                   {
                       "startTime": "2023-11-29T20:00:00Z",
                       "values": {
-                          "cloudBase": 0.16,
+                          "cloudBase": 0.15,
                           "cloudCeiling": 0.19,
                           "cloudCover": 100,
-                          "precipitationIntensity": 0.1,
+                          "precipitationIntensity": 0.01,
                           "precipitationType": 1,
-                          "temperature": 12.09,
-                          "temperatureApparent": 12.09,
+                          "temperature": 12.33,
+                          "temperatureApparent": 12.33,
                           "weatherCode": 1001,
-                          "windDirection": 218.68,
-                          "windGust": 6.93,
-                          "windSpeed": 3.58
+                          "windDirection": 222.75,
+                          "windGust": 8.44,
+                          "windSpeed": 4.38
                       }
                   },
                   {
                       "startTime": "2023-11-29T21:00:00Z",
                       "values": {
-                          "cloudBase": 0.09,
-                          "cloudCeiling": 0.12,
+                          "cloudBase": 0.1,
+                          "cloudCeiling": 0.18,
                           "cloudCover": 100,
                           "precipitationIntensity": 0.01,
                           "precipitationType": 1,
-                          "temperature": 11.96,
-                          "temperatureApparent": 11.96,
+                          "temperature": 12.25,
+                          "temperatureApparent": 12.25,
                           "weatherCode": 1001,
-                          "windDirection": 212.92,
-                          "windGust": 8.29,
-                          "windSpeed": 4.27
+                          "windDirection": 222.34,
+                          "windGust": 7.94,
+                          "windSpeed": 4.13
                       }
                   },
                   {
                       "startTime": "2023-11-29T22:00:00Z",
                       "values": {
-                          "cloudBase": 0.1,
+                          "cloudBase": 0.11,
                           "cloudCeiling": 0.13,
                           "cloudCover": 100,
-                          "precipitationIntensity": 0.01,
+                          "precipitationIntensity": 0.02,
                           "precipitationType": 1,
-                          "temperature": 12,
-                          "temperatureApparent": 12,
+                          "temperature": 12.07,
+                          "temperatureApparent": 12.07,
                           "weatherCode": 1001,
-                          "windDirection": 220.24,
-                          "windGust": 8.81,
-                          "windSpeed": 4.56
+                          "windDirection": 219.3,
+                          "windGust": 7.99,
+                          "windSpeed": 4.1
                       }
                   },
                   {
                       "startTime": "2023-11-29T23:00:00Z",
                       "values": {
-                          "cloudBase": 0.1,
-                          "cloudCeiling": 0.13,
+                          "cloudBase": 0.09,
+                          "cloudCeiling": 0.11,
                           "cloudCover": 100,
-                          "precipitationIntensity": 0.01,
+                          "precipitationIntensity": 0.02,
                           "precipitationType": 1,
-                          "temperature": 11.97,
-                          "temperatureApparent": 11.97,
+                          "temperature": 12.11,
+                          "temperatureApparent": 12.11,
                           "weatherCode": 1001,
-                          "windDirection": 220.6,
-                          "windGust": 9.09,
-                          "windSpeed": 4.68
+                          "windDirection": 223.55,
+                          "windGust": 8.88,
+                          "windSpeed": 4.54
                       }
                   },
                   {
                       "startTime": "2023-11-30T00:00:00Z",
                       "values": {
-                          "cloudBase": 0.07,
-                          "cloudCeiling": 0.1,
+                          "cloudBase": 0.09,
+                          "cloudCeiling": 0.13,
                           "cloudCover": 100,
-                          "precipitationIntensity": 0,
+                          "precipitationIntensity": 0.02,
                           "precipitationType": 1,
-                          "temperature": 12,
-                          "temperatureApparent": 12,
+                          "temperature": 12.18,
+                          "temperatureApparent": 12.18,
                           "weatherCode": 1001,
-                          "windDirection": 221.48,
-                          "windGust": 9.58,
-                          "windSpeed": 4.95
+                          "windDirection": 221.24,
+                          "windGust": 9.61,
+                          "windSpeed": 4.92
                       }
                   },
                   {
                       "startTime": "2023-11-30T01:00:00Z",
                       "values": {
-                          "cloudBase": 0.12,
-                          "cloudCeiling": 0.13,
+                          "cloudBase": 0.14,
+                          "cloudCeiling": 0.17,
                           "cloudCover": 100,
-                          "precipitationIntensity": 0.03,
+                          "precipitationIntensity": 0.04,
                           "precipitationType": 1,
-                          "temperature": 11.97,
-                          "temperatureApparent": 11.97,
+                          "temperature": 12.17,
+                          "temperatureApparent": 12.17,
                           "weatherCode": 1001,
-                          "windDirection": 223.83,
-                          "windGust": 9.93,
-                          "windSpeed": 5.13
+                          "windDirection": 226.02,
+                          "windGust": 10.92,
+                          "windSpeed": 5.67
                       }
                   },
                   {
                       "startTime": "2023-11-30T02:00:00Z",
                       "values": {
-                          "cloudBase": 0.08,
-                          "cloudCeiling": 0.11,
+                          "cloudBase": 0.12,
+                          "cloudCeiling": 0.15,
                           "cloudCover": 100,
-                          "precipitationIntensity": 0.01,
+                          "precipitationIntensity": 0.03,
                           "precipitationType": 1,
-                          "temperature": 11.77,
-                          "temperatureApparent": 11.77,
+                          "temperature": 11.99,
+                          "temperatureApparent": 11.99,
                           "weatherCode": 1001,
-                          "windDirection": 226.18,
-                          "windGust": 10.38,
-                          "windSpeed": 5.38
+                          "windDirection": 225.69,
+                          "windGust": 10.56,
+                          "windSpeed": 5.48
                       }
                   },
                   {
                       "startTime": "2023-11-30T03:00:00Z",
                       "values": {
-                          "cloudBase": 0.08,
+                          "cloudBase": 0.09,
                           "cloudCeiling": 0.13,
                           "cloudCover": 100,
-                          "precipitationIntensity": 0,
+                          "precipitationIntensity": 0.01,
                           "precipitationType": 1,
-                          "temperature": 11.75,
-                          "temperatureApparent": 11.75,
+                          "temperature": 11.86,
+                          "temperatureApparent": 11.86,
                           "weatherCode": 1001,
-                          "windDirection": 223.74,
-                          "windGust": 9.81,
-                          "windSpeed": 5.09
+                          "windDirection": 225.24,
+                          "windGust": 10.24,
+                          "windSpeed": 5.31
                       }
                   },
                   {
                       "startTime": "2023-11-30T04:00:00Z",
                       "values": {
-                          "cloudBase": 0.1,
-                          "cloudCeiling": 0.15,
+                          "cloudBase": 0.04,
+                          "cloudCeiling": 0.05,
                           "cloudCover": 100,
-                          "precipitationIntensity": 0,
+                          "precipitationIntensity": 0.05,
                           "precipitationType": 1,
-                          "temperature": 11.75,
-                          "temperatureApparent": 11.75,
+                          "temperature": 11.72,
+                          "temperatureApparent": 11.72,
                           "weatherCode": 1001,
-                          "windDirection": 219.77,
-                          "windGust": 10.49,
-                          "windSpeed": 5.42
+                          "windDirection": 221.26,
+                          "windGust": 9.39,
+                          "windSpeed": 4.89
                       }
                   },
                   {
                       "startTime": "2023-11-30T05:00:00Z",
                       "values": {
                           "cloudBase": 0.05,
-                          "cloudCeiling": 0.08,
+                          "cloudCeiling": 0.06,
                           "cloudCover": 100,
-                          "precipitationIntensity": 0.06,
+                          "precipitationIntensity": 0.33,
                           "precipitationType": 1,
-                          "temperature": 11.8,
-                          "temperatureApparent": 11.8,
-                          "weatherCode": 1001,
-                          "windDirection": 217.01,
-                          "windGust": 9.8,
-                          "windSpeed": 5.12
+                          "temperature": 11.85,
+                          "temperatureApparent": 11.85,
+                          "weatherCode": 4000,
+                          "windDirection": 216.63,
+                          "windGust": 8.51,
+                          "windSpeed": 4.46
                       }
                   },
                   {
                       "startTime": "2023-11-30T06:00:00Z",
                       "values": {
                           "cloudBase": 0.06,
-                          "cloudCeiling": 0.09,
+                          "cloudCeiling": 0.11,
                           "cloudCover": 100,
                           "precipitationIntensity": 0.1,
                           "precipitationType": 1,
-                          "temperature": 11.86,
-                          "temperatureApparent": 11.86,
+                          "temperature": 11.79,
+                          "temperatureApparent": 11.79,
                           "weatherCode": 1001,
-                          "windDirection": 214.1,
-                          "windGust": 9.57,
-                          "windSpeed": 4.99
+                          "windDirection": 212.59,
+                          "windGust": 10.45,
+                          "windSpeed": 5.43
                       }
                   },
                   {
                       "startTime": "2023-11-30T07:00:00Z",
                       "values": {
-                          "cloudBase": 0.07,
-                          "cloudCeiling": 0.12,
+                          "cloudBase": 0.06,
+                          "cloudCeiling": 0.1,
                           "cloudCover": 100,
-                          "precipitationIntensity": 0.14,
+                          "precipitationIntensity": 0.15,
                           "precipitationType": 1,
-                          "temperature": 11.87,
-                          "temperatureApparent": 11.87,
+                          "temperature": 11.81,
+                          "temperatureApparent": 11.81,
                           "weatherCode": 1001,
-                          "windDirection": 210.27,
-                          "windGust": 9.99,
-                          "windSpeed": 5.21
+                          "windDirection": 206.87,
+                          "windGust": 9.8,
+                          "windSpeed": 5.14
                       }
                   },
                   {
                       "startTime": "2023-11-30T08:00:00Z",
                       "values": {
-                          "cloudBase": 0.07,
-                          "cloudCeiling": 0.11,
+                          "cloudBase": 0.08,
+                          "cloudCeiling": 0.16,
                           "cloudCover": 100,
-                          "precipitationIntensity": 0.17,
+                          "precipitationIntensity": 0.4,
                           "precipitationType": 1,
-                          "temperature": 11.78,
-                          "temperatureApparent": 11.78,
-                          "weatherCode": 1001,
-                          "windDirection": 206.12,
-                          "windGust": 10.36,
-                          "windSpeed": 5.42
+                          "temperature": 11.96,
+                          "temperatureApparent": 11.96,
+                          "weatherCode": 4000,
+                          "windDirection": 204.39,
+                          "windGust": 10.94,
+                          "windSpeed": 5.78
                       }
                   },
                   {
                       "startTime": "2023-11-30T09:00:00Z",
                       "values": {
-                          "cloudBase": 0.15,
-                          "cloudCeiling": 0.22,
+                          "cloudBase": 0.13,
+                          "cloudCeiling": 0.17,
                           "cloudCover": 100,
-                          "precipitationIntensity": 1.15,
+                          "precipitationIntensity": 0.32,
                           "precipitationType": 1,
-                          "temperature": 11.82,
-                          "temperatureApparent": 11.82,
-                          "weatherCode": 4200,
-                          "windDirection": 200.63,
-                          "windGust": 10.01,
-                          "windSpeed": 5.16
+                          "temperature": 12.04,
+                          "temperatureApparent": 12.04,
+                          "weatherCode": 4000,
+                          "windDirection": 198.6,
+                          "windGust": 11.79,
+                          "windSpeed": 5.98
                       }
                   },
                   {
                       "startTime": "2023-11-30T10:00:00Z",
                       "values": {
-                          "cloudBase": 0.2,
-                          "cloudCeiling": 0.27,
+                          "cloudBase": 0.13,
+                          "cloudCeiling": 0.26,
                           "cloudCover": 100,
-                          "precipitationIntensity": 1.16,
+                          "precipitationIntensity": 0.14,
                           "precipitationType": 1,
-                          "temperature": 11.77,
-                          "temperatureApparent": 11.77,
-                          "weatherCode": 4200,
-                          "windDirection": 199.78,
-                          "windGust": 11.27,
-                          "windSpeed": 5.83
+                          "temperature": 12.05,
+                          "temperatureApparent": 12.05,
+                          "weatherCode": 1001,
+                          "windDirection": 201.8,
+                          "windGust": 13.24,
+                          "windSpeed": 6.84
                       }
                   },
                   {
                       "startTime": "2023-11-30T11:00:00Z",
                       "values": {
-                          "cloudBase": 0.61,
-                          "cloudCeiling": 1.54,
+                          "cloudBase": 0.33,
+                          "cloudCeiling": 0.39,
                           "cloudCover": 100,
-                          "precipitationIntensity": 2.04,
+                          "precipitationIntensity": 1.48,
                           "precipitationType": 1,
-                          "temperature": 11.76,
-                          "temperatureApparent": 11.76,
+                          "temperature": 11.94,
+                          "temperatureApparent": 11.94,
                           "weatherCode": 4200,
-                          "windDirection": 205.93,
-                          "windGust": 10.37,
-                          "windSpeed": 5.39
+                          "windDirection": 199.52,
+                          "windGust": 11.34,
+                          "windSpeed": 5.8
                       }
                   },
                   {
                       "startTime": "2023-11-30T12:00:00Z",
                       "values": {
-                          "cloudBase": 0.25,
-                          "cloudCeiling": 0.88,
+                          "cloudBase": 0.58,
+                          "cloudCeiling": 1.27,
                           "cloudCover": 100,
-                          "precipitationIntensity": 2.05,
+                          "precipitationIntensity": 1.61,
                           "precipitationType": 1,
-                          "temperature": 12.02,
-                          "temperatureApparent": 12.02,
+                          "temperature": 12.17,
+                          "temperatureApparent": 12.17,
                           "weatherCode": 4200,
-                          "windDirection": 204.88,
-                          "windGust": 7.01,
-                          "windSpeed": 3.72
+                          "windDirection": 201.59,
+                          "windGust": 9.92,
+                          "windSpeed": 5.16
                       }
                   },
                   {
                       "startTime": "2023-11-30T13:00:00Z",
                       "values": {
-                          "cloudBase": 0.37,
-                          "cloudCeiling": 2.16,
+                          "cloudBase": 0.69,
+                          "cloudCeiling": 1.2,
                           "cloudCover": 100,
-                          "precipitationIntensity": 1.14,
+                          "precipitationIntensity": 0.9,
                           "precipitationType": 1,
-                          "temperature": 12.03,
-                          "temperatureApparent": 12.03,
+                          "temperature": 12.39,
+                          "temperatureApparent": 12.39,
                           "weatherCode": 4200,
-                          "windDirection": 209.58,
-                          "windGust": 11.1,
-                          "windSpeed": 5.86
+                          "windDirection": 203.29,
+                          "windGust": 7.06,
+                          "windSpeed": 3.67
                       }
                   },
                   {
                       "startTime": "2023-11-30T14:00:00Z",
                       "values": {
-                          "cloudBase": 0.49,
-                          "cloudCeiling": 0.81,
+                          "cloudBase": 0.38,
+                          "cloudCeiling": 1.09,
                           "cloudCover": 100,
-                          "precipitationIntensity": 5.2,
+                          "precipitationIntensity": 3.06,
                           "precipitationType": 1,
-                          "temperature": 11.75,
-                          "temperatureApparent": 11.75,
+                          "temperature": 12.57,
+                          "temperatureApparent": 12.57,
                           "weatherCode": 4001,
-                          "windDirection": 128.81,
-                          "windGust": 1.9,
-                          "windSpeed": 0.45
+                          "windDirection": 208.96,
+                          "windGust": 6.58,
+                          "windSpeed": 3.33
                       }
                   },
                   {
                       "startTime": "2023-11-30T15:00:00Z",
                       "values": {
-                          "cloudBase": 1.53,
-                          "cloudCeiling": 2.05,
+                          "cloudBase": 0.34,
+                          "cloudCeiling": 0.68,
                           "cloudCover": 100,
-                          "precipitationIntensity": 0.58,
+                          "precipitationIntensity": 1.62,
                           "precipitationType": 1,
-                          "temperature": 11.73,
-                          "temperatureApparent": 11.73,
+                          "temperature": 12.41,
+                          "temperatureApparent": 12.41,
                           "weatherCode": 4200,
-                          "windDirection": 332.91,
-                          "windGust": 1.64,
-                          "windSpeed": 0.32
+                          "windDirection": 220.25,
+                          "windGust": 8.15,
+                          "windSpeed": 3.97
                       }
                   },
                   {
                       "startTime": "2023-11-30T16:00:00Z",
                       "values": {
-                          "cloudBase": 1.42,
-                          "cloudCeiling": 1.83,
+                          "cloudBase": 0.34,
+                          "cloudCeiling": 0.38,
                           "cloudCover": 100,
-                          "precipitationIntensity": 1.56,
+                          "precipitationIntensity": 7.61,
                           "precipitationType": 1,
-                          "temperature": 11.41,
-                          "temperatureApparent": 11.41,
-                          "weatherCode": 4200,
-                          "windDirection": 189.13,
-                          "windGust": 4.48,
-                          "windSpeed": 2.39
+                          "temperature": 12.49,
+                          "temperatureApparent": 12.49,
+                          "weatherCode": 4001,
+                          "windDirection": 253.43,
+                          "windGust": 6.72,
+                          "windSpeed": 3.3
                       }
                   },
                   {
                       "startTime": "2023-11-30T17:00:00Z",
                       "values": {
-                          "cloudBase": 1.05,
-                          "cloudCeiling": 1.35,
+                          "cloudBase": 0.88,
+                          "cloudCeiling": 1.48,
                           "cloudCover": 100,
-                          "precipitationIntensity": 2.22,
+                          "precipitationIntensity": 7.27,
                           "precipitationType": 1,
-                          "temperature": 11.38,
-                          "temperatureApparent": 11.38,
-                          "weatherCode": 4200,
-                          "windDirection": 236.37,
-                          "windGust": 5.26,
-                          "windSpeed": 2.75
+                          "temperature": 12.14,
+                          "temperatureApparent": 12.14,
+                          "weatherCode": 4001,
+                          "windDirection": 204.5,
+                          "windGust": 3.86,
+                          "windSpeed": 1.56
                       }
                   },
                   {
                       "startTime": "2023-11-30T18:00:00Z",
                       "values": {
-                          "cloudBase": 0.48,
-                          "cloudCeiling": 2.46,
+                          "cloudBase": 0.26,
+                          "cloudCeiling": 0.6,
                           "cloudCover": 100,
-                          "precipitationIntensity": 0.38,
+                          "precipitationIntensity": 8.04,
                           "precipitationType": 1,
-                          "temperature": 11.04,
-                          "temperatureApparent": 11.04,
-                          "weatherCode": 4000,
-                          "windDirection": 227.56,
-                          "windGust": 7,
-                          "windSpeed": 3.72
+                          "temperature": 12.47,
+                          "temperatureApparent": 12.47,
+                          "weatherCode": 4001,
+                          "windDirection": 253.87,
+                          "windGust": 6.29,
+                          "windSpeed": 2.2
                       }
                   },
                   {
                       "startTime": "2023-11-30T19:00:00Z",
                       "values": {
-                          "cloudBase": 0.29,
-                          "cloudCeiling": 2.73,
+                          "cloudBase": 0.87,
+                          "cloudCeiling": 1.1,
                           "cloudCover": 100,
-                          "precipitationIntensity": 0.22,
+                          "precipitationIntensity": 1.75,
                           "precipitationType": 1,
-                          "temperature": 11.3,
-                          "temperatureApparent": 11.3,
-                          "weatherCode": 1001,
-                          "windDirection": 250.31,
-                          "windGust": 5.98,
-                          "windSpeed": 3.11
+                          "temperature": 12.51,
+                          "temperatureApparent": 12.51,
+                          "weatherCode": 4200,
+                          "windDirection": 245.6,
+                          "windGust": 5.65,
+                          "windSpeed": 2.95
                       }
                   },
                   {
                       "startTime": "2023-11-30T20:00:00Z",
                       "values": {
-                          "cloudBase": 0.37,
-                          "cloudCeiling": 1.38,
+                          "cloudBase": 1.16,
+                          "cloudCeiling": 1.4,
                           "cloudCover": 100,
-                          "precipitationIntensity": 0,
+                          "precipitationIntensity": 3.23,
                           "precipitationType": 1,
-                          "temperature": 10.92,
-                          "temperatureApparent": 10.92,
-                          "weatherCode": 1001,
-                          "windDirection": 314.08,
-                          "windGust": 6.38,
-                          "windSpeed": 3.44
+                          "temperature": 12.31,
+                          "temperatureApparent": 12.31,
+                          "weatherCode": 4001,
+                          "windDirection": 252.4,
+                          "windGust": 5.56,
+                          "windSpeed": 2.96
                       }
                   },
                   {
                       "startTime": "2023-11-30T21:00:00Z",
                       "values": {
-                          "cloudBase": 0.18,
-                          "cloudCeiling": 0.91,
+                          "cloudBase": 1.7,
+                          "cloudCeiling": 2.2,
                           "cloudCover": 100,
-                          "precipitationIntensity": 0,
+                          "precipitationIntensity": 5.98,
                           "precipitationType": 1,
-                          "temperature": 9.95,
-                          "temperatureApparent": 9.95,
-                          "weatherCode": 1001,
-                          "windDirection": 308,
-                          "windGust": 6.53,
-                          "windSpeed": 3.55
+                          "temperature": 11.46,
+                          "temperatureApparent": 11.46,
+                          "weatherCode": 4001,
+                          "windDirection": 206,
+                          "windGust": 4.86,
+                          "windSpeed": 2.02
                       }
                   },
                   {
                       "startTime": "2023-11-30T22:00:00Z",
                       "values": {
-                          "cloudBase": 0.19,
-                          "cloudCeiling": 1.26,
+                          "cloudBase": 1.2,
+                          "cloudCeiling": 1.24,
                           "cloudCover": 100,
-                          "precipitationIntensity": 0,
+                          "precipitationIntensity": 3.22,
                           "precipitationType": 1,
-                          "temperature": 9.31,
-                          "temperatureApparent": 9.31,
-                          "weatherCode": 1001,
-                          "windDirection": 303.47,
-                          "windGust": 5.27,
-                          "windSpeed": 2.79
+                          "temperature": 10.96,
+                          "temperatureApparent": 10.96,
+                          "weatherCode": 4001,
+                          "windDirection": 235.65,
+                          "windGust": 6.66,
+                          "windSpeed": 2.17
                       }
                   },
                   {
                       "startTime": "2023-11-30T23:00:00Z",
                       "values": {
-                          "cloudBase": 0.38,
-                          "cloudCeiling": 1.26,
+                          "cloudBase": 0.95,
+                          "cloudCeiling": 1.01,
                           "cloudCover": 100,
-                          "precipitationIntensity": 0,
+                          "precipitationIntensity": 2.64,
                           "precipitationType": 1,
-                          "temperature": 8.57,
-                          "temperatureApparent": 8.57,
-                          "weatherCode": 1001,
-                          "windDirection": 308.8,
+                          "temperature": 10.67,
+                          "temperatureApparent": 10.67,
+                          "weatherCode": 4001,
+                          "windDirection": 247.77,
                           "windGust": 4.96,
-                          "windSpeed": 2.63
+                          "windSpeed": 2.5
                       }
                   },
                   {
                       "startTime": "2023-12-01T00:00:00Z",
                       "values": {
-                          "cloudBase": 0.35,
-                          "cloudCeiling": 1.38,
+                          "cloudBase": 0.95,
+                          "cloudCeiling": 1.15,
                           "cloudCover": 100,
-                          "precipitationIntensity": 0,
+                          "precipitationIntensity": 0.71,
                           "precipitationType": 1,
-                          "temperature": 7.69,
-                          "temperatureApparent": 7.69,
-                          "weatherCode": 1001,
-                          "windDirection": 303.69,
-                          "windGust": 4.67,
-                          "windSpeed": 2.42
+                          "temperature": 10.36,
+                          "temperatureApparent": 10.36,
+                          "weatherCode": 4200,
+                          "windDirection": 253.34,
+                          "windGust": 3.62,
+                          "windSpeed": 1.8
                       }
                   },
                   {
                       "startTime": "2023-12-01T01:00:00Z",
                       "values": {
-                          "cloudBase": 0.79,
-                          "cloudCeiling": 1.55,
-                          "cloudCover": 96.88,
-                          "precipitationIntensity": 0,
+                          "cloudBase": 0.88,
+                          "cloudCeiling": 1.19,
+                          "cloudCover": 100,
+                          "precipitationIntensity": 0.61,
                           "precipitationType": 1,
-                          "temperature": 7.1,
-                          "temperatureApparent": 7.1,
-                          "weatherCode": 1001,
-                          "windDirection": 306,
-                          "windGust": 4.71,
-                          "windSpeed": 2.42
+                          "temperature": 10.19,
+                          "temperatureApparent": 10.19,
+                          "weatherCode": 4200,
+                          "windDirection": 254.27,
+                          "windGust": 3.23,
+                          "windSpeed": 1.57
                       }
                   },
                   {
                       "startTime": "2023-12-01T02:00:00Z",
                       "values": {
-                          "cloudBase": 0.4,
-                          "cloudCeiling": 4.46,
-                          "cloudCover": 93.75,
-                          "precipitationIntensity": 0,
+                          "cloudBase": 0.87,
+                          "cloudCeiling": 1.26,
+                          "cloudCover": 100,
+                          "precipitationIntensity": 1.35,
                           "precipitationType": 1,
-                          "temperature": 6.52,
-                          "temperatureApparent": 6.52,
-                          "weatherCode": 1001,
-                          "windDirection": 293.64,
-                          "windGust": 4.18,
-                          "windSpeed": 2.11
+                          "temperature": 9.7,
+                          "temperatureApparent": 9.7,
+                          "weatherCode": 4200,
+                          "windDirection": 303.78,
+                          "windGust": 4.6,
+                          "windSpeed": 2.29
                       }
                   },
                   {
                       "startTime": "2023-12-01T03:00:00Z",
                       "values": {
-                          "cloudBase": 1.1,
-                          "cloudCeiling": null,
-                          "cloudCover": 36.72,
-                          "precipitationIntensity": 0,
+                          "cloudBase": 0.89,
+                          "cloudCeiling": 1.38,
+                          "cloudCover": 100,
+                          "precipitationIntensity": 1.42,
                           "precipitationType": 1,
-                          "temperature": 5.61,
-                          "temperatureApparent": 5.61,
-                          "weatherCode": 1100,
-                          "windDirection": 301.52,
-                          "windGust": 4.5,
-                          "windSpeed": 2.24
+                          "temperature": 8.5,
+                          "temperatureApparent": 8.5,
+                          "weatherCode": 4200,
+                          "windDirection": 318.52,
+                          "windGust": 5.2,
+                          "windSpeed": 2.65
                       }
                   },
                   {
                       "startTime": "2023-12-01T04:00:00Z",
                       "values": {
-                          "cloudBase": null,
-                          "cloudCeiling": null,
-                          "cloudCover": 1.56,
-                          "precipitationIntensity": 0,
+                          "cloudBase": 1.1,
+                          "cloudCeiling": 1.26,
+                          "cloudCover": 100,
+                          "precipitationIntensity": 1.55,
                           "precipitationType": 1,
-                          "temperature": 3.78,
-                          "temperatureApparent": 1.96,
-                          "weatherCode": 1000,
-                          "windDirection": 295.74,
-                          "windGust": 3.74,
-                          "windSpeed": 1.97
+                          "temperature": 7.89,
+                          "temperatureApparent": 7.89,
+                          "weatherCode": 4200,
+                          "windDirection": 331.55,
+                          "windGust": 3.62,
+                          "windSpeed": 1.92
                       }
                   },
                   {
                       "startTime": "2023-12-01T05:00:00Z",
                       "values": {
-                          "cloudBase": null,
-                          "cloudCeiling": null,
-                          "cloudCover": 17.19,
-                          "precipitationIntensity": 0,
+                          "cloudBase": 1.1,
+                          "cloudCeiling": 1.29,
+                          "cloudCover": 100,
+                          "precipitationIntensity": 1.29,
                           "precipitationType": 1,
-                          "temperature": 3.16,
-                          "temperatureApparent": 1.04,
-                          "weatherCode": 1100,
-                          "windDirection": 285.82,
-                          "windGust": 4.02,
-                          "windSpeed": 2.16
+                          "temperature": 7.85,
+                          "temperatureApparent": 7.85,
+                          "weatherCode": 4200,
+                          "windDirection": 284.61,
+                          "windGust": 2.19,
+                          "windSpeed": 0.84
                       }
                   },
                   {
                       "startTime": "2023-12-01T06:00:00Z",
                       "values": {
-                          "cloudBase": 0.43,
-                          "cloudCeiling": null,
-                          "cloudCover": 55.47,
-                          "precipitationIntensity": 0,
+                          "cloudBase": 1.33,
+                          "cloudCeiling": 1.5,
+                          "cloudCover": 100,
+                          "precipitationIntensity": 0.17,
                           "precipitationType": 1,
-                          "temperature": 3.38,
-                          "temperatureApparent": 1.3,
-                          "weatherCode": 1101,
-                          "windDirection": 277.21,
-                          "windGust": 4.04,
-                          "windSpeed": 2.15
+                          "temperature": 7.6,
+                          "temperatureApparent": 7.6,
+                          "weatherCode": 1001,
+                          "windDirection": 280.47,
+                          "windGust": 3.33,
+                          "windSpeed": 1.5
                       }
                   },
                   {
                       "startTime": "2023-12-01T07:00:00Z",
                       "values": {
-                          "cloudBase": 0.32,
-                          "cloudCeiling": null,
-                          "cloudCover": 78.91,
-                          "precipitationIntensity": 0,
+                          "cloudBase": 2.69,
+                          "cloudCeiling": 3.99,
+                          "cloudCover": 100,
+                          "precipitationIntensity": 0.06,
                           "precipitationType": 1,
-                          "temperature": 4.67,
-                          "temperatureApparent": 4.67,
+                          "temperature": 7.11,
+                          "temperatureApparent": 7.11,
                           "weatherCode": 1001,
-                          "windDirection": 263.57,
-                          "windGust": 4.52,
-                          "windSpeed": 2.29
+                          "windDirection": 308.6,
+                          "windGust": 3.39,
+                          "windSpeed": 1.72
                       }
                   },
                   {
                       "startTime": "2023-12-01T08:00:00Z",
                       "values": {
-                          "cloudBase": 0.4,
-                          "cloudCeiling": 0.55,
-                          "cloudCover": 75.65,
+                          "cloudBase": 1.54,
+                          "cloudCeiling": 3.65,
+                          "cloudCover": 100,
                           "precipitationIntensity": 0,
                           "precipitationType": 1,
-                          "temperature": 5.45,
-                          "temperatureApparent": 5.45,
+                          "temperature": 6.78,
+                          "temperatureApparent": 6.78,
                           "weatherCode": 1001,
-                          "windDirection": 245.79,
-                          "windGust": 5.47,
-                          "windSpeed": 2.7
+                          "windDirection": 324.5,
+                          "windGust": 3.51,
+                          "windSpeed": 1.83
                       }
                   },
                   {
                       "startTime": "2023-12-01T09:00:00Z",
                       "values": {
-                          "cloudBase": 0.57,
-                          "cloudCeiling": 0.43,
-                          "cloudCover": 61.59,
+                          "cloudBase": 0.62,
+                          "cloudCeiling": null,
+                          "cloudCover": 45.31,
                           "precipitationIntensity": 0,
                           "precipitationType": 1,
-                          "temperature": 6.3,
-                          "temperatureApparent": 6.3,
+                          "temperature": 7.38,
+                          "temperatureApparent": 7.38,
                           "weatherCode": 1101,
-                          "windDirection": 249.25,
-                          "windGust": 7.26,
-                          "windSpeed": 3.45
+                          "windDirection": 334.2,
+                          "windGust": 4.66,
+                          "windSpeed": 2.1
                       }
                   },
                   {
                       "startTime": "2023-12-01T10:00:00Z",
                       "values": {
-                          "cloudBase": 0.81,
+                          "cloudBase": 0.5,
                           "cloudCeiling": null,
-                          "cloudCover": 48.77,
+                          "cloudCover": 32.03,
                           "precipitationIntensity": 0,
                           "precipitationType": 1,
-                          "temperature": 7.37,
-                          "temperatureApparent": 7.37,
-                          "weatherCode": 1101,
-                          "windDirection": 267.04,
-                          "windGust": 7.06,
-                          "windSpeed": 3.29
+                          "temperature": 7.85,
+                          "temperatureApparent": 7.85,
+                          "weatherCode": 1100,
+                          "windDirection": 333.41,
+                          "windGust": 6.41,
+                          "windSpeed": 2.75
                       }
                   },
                   {
                       "startTime": "2023-12-01T11:00:00Z",
                       "values": {
-                          "cloudBase": 0.9,
+                          "cloudBase": 0.63,
                           "cloudCeiling": null,
-                          "cloudCover": 36.7,
+                          "cloudCover": 46.09,
                           "precipitationIntensity": 0,
                           "precipitationType": 1,
-                          "temperature": 8.35,
-                          "temperatureApparent": 8.35,
-                          "weatherCode": 1100,
-                          "windDirection": 281.1,
-                          "windGust": 7.01,
-                          "windSpeed": 3.42
+                          "temperature": 8.27,
+                          "temperatureApparent": 8.27,
+                          "weatherCode": 1101,
+                          "windDirection": 325.93,
+                          "windGust": 6.91,
+                          "windSpeed": 2.88
                       }
                   },
                   {
                       "startTime": "2023-12-01T12:00:00Z",
                       "values": {
-                          "cloudBase": 1.15,
+                          "cloudBase": 0.74,
                           "cloudCeiling": null,
-                          "cloudCover": 30.17,
+                          "cloudCover": 10.16,
                           "precipitationIntensity": 0,
                           "precipitationType": 1,
-                          "temperature": 8.97,
-                          "temperatureApparent": 8.97,
-                          "weatherCode": 1100,
-                          "windDirection": 292.11,
-                          "windGust": 7.47,
-                          "windSpeed": 3.82
+                          "temperature": 8.93,
+                          "temperatureApparent": 8.93,
+                          "weatherCode": 1000,
+                          "windDirection": 323.68,
+                          "windGust": 7.14,
+                          "windSpeed": 3.01
                       }
                   },
                   {
@@ -1282,15 +1122,15 @@
                       "values": {
                           "cloudBase": null,
                           "cloudCeiling": null,
-                          "cloudCover": 9.31,
+                          "cloudCover": 7.81,
                           "precipitationIntensity": 0,
                           "precipitationType": 1,
-                          "temperature": 9.29,
-                          "temperatureApparent": 9.29,
+                          "temperature": 9.56,
+                          "temperatureApparent": 9.56,
                           "weatherCode": 1000,
-                          "windDirection": 296.16,
-                          "windGust": 7.69,
-                          "windSpeed": 3.88
+                          "windDirection": 324.27,
+                          "windGust": 6.86,
+                          "windSpeed": 2.83
                       }
                   },
                   {
@@ -1298,15 +1138,15 @@
                       "values": {
                           "cloudBase": null,
                           "cloudCeiling": null,
-                          "cloudCover": 9.31,
+                          "cloudCover": 3.91,
                           "precipitationIntensity": 0,
                           "precipitationType": 1,
-                          "temperature": 9.37,
-                          "temperatureApparent": 9.37,
+                          "temperature": 9.83,
+                          "temperatureApparent": 9.83,
                           "weatherCode": 1000,
-                          "windDirection": 294.31,
-                          "windGust": 7.64,
-                          "windSpeed": 3.82
+                          "windDirection": 326.41,
+                          "windGust": 6.66,
+                          "windSpeed": 2.82
                       }
                   },
                   {
@@ -1314,63 +1154,63 @@
                       "values": {
                           "cloudBase": null,
                           "cloudCeiling": null,
-                          "cloudCover": 8.19,
+                          "cloudCover": 8.59,
                           "precipitationIntensity": 0,
                           "precipitationType": 1,
-                          "temperature": 9.09,
-                          "temperatureApparent": 9.09,
+                          "temperature": 9.5,
+                          "temperatureApparent": 9.5,
                           "weatherCode": 1000,
-                          "windDirection": 299.51,
-                          "windGust": 8.13,
-                          "windSpeed": 4.52
+                          "windDirection": 325.23,
+                          "windGust": 7,
+                          "windSpeed": 3.19
                       }
                   },
                   {
                       "startTime": "2023-12-01T16:00:00Z",
                       "values": {
-                          "cloudBase": 0.71,
+                          "cloudBase": 1.12,
                           "cloudCeiling": null,
-                          "cloudCover": 18.04,
+                          "cloudCover": 15.63,
                           "precipitationIntensity": 0,
-                          "precipitationType": 1,
-                          "temperature": 8.57,
-                          "temperatureApparent": 8.57,
+                          "precipitationType": 0,
+                          "temperature": 8.49,
+                          "temperatureApparent": 8.49,
                           "weatherCode": 1100,
-                          "windDirection": 296.01,
-                          "windGust": 8.49,
-                          "windSpeed": 4.73
+                          "windDirection": 328.7,
+                          "windGust": 6.47,
+                          "windSpeed": 3.2
                       }
                   },
                   {
                       "startTime": "2023-12-01T17:00:00Z",
                       "values": {
-                          "cloudBase": 0.65,
+                          "cloudBase": null,
                           "cloudCeiling": null,
-                          "cloudCover": 28.17,
+                          "cloudCover": 8.59,
                           "precipitationIntensity": 0,
-                          "precipitationType": 1,
-                          "temperature": 7.95,
-                          "temperatureApparent": 7.95,
-                          "weatherCode": 1100,
-                          "windDirection": 294.59,
-                          "windGust": 9.01,
-                          "windSpeed": 5
+                          "precipitationType": 0,
+                          "temperature": 7.05,
+                          "temperatureApparent": 7.05,
+                          "weatherCode": 1000,
+                          "windDirection": 317.3,
+                          "windGust": 4.6,
+                          "windSpeed": 2.31
                       }
                   },
                   {
                       "startTime": "2023-12-01T18:00:00Z",
                       "values": {
-                          "cloudBase": 0.71,
+                          "cloudBase": null,
                           "cloudCeiling": null,
-                          "cloudCover": 33.78,
+                          "cloudCover": 3.91,
                           "precipitationIntensity": 0,
-                          "precipitationType": 1,
-                          "temperature": 7.48,
-                          "temperatureApparent": 7.48,
-                          "weatherCode": 1100,
-                          "windDirection": 292.82,
-                          "windGust": 9.52,
-                          "windSpeed": 4.7
+                          "precipitationType": 0,
+                          "temperature": 5.75,
+                          "temperatureApparent": 5.75,
+                          "weatherCode": 1000,
+                          "windDirection": 306.85,
+                          "windGust": 4.71,
+                          "windSpeed": 2.57
                       }
                   },
                   {
@@ -1378,15 +1218,15 @@
                       "values": {
                           "cloudBase": null,
                           "cloudCeiling": null,
-                          "cloudCover": 8.38,
+                          "cloudCover": 2.34,
                           "precipitationIntensity": 0,
-                          "precipitationType": 1,
-                          "temperature": 7.06,
-                          "temperatureApparent": 7.06,
+                          "precipitationType": 0,
+                          "temperature": 5.1,
+                          "temperatureApparent": 5.1,
                           "weatherCode": 1000,
-                          "windDirection": 303.81,
-                          "windGust": 11.05,
-                          "windSpeed": 4.92
+                          "windDirection": 297.19,
+                          "windGust": 4.54,
+                          "windSpeed": 2.57
                       }
                   },
                   {
@@ -1394,15 +1234,15 @@
                       "values": {
                           "cloudBase": null,
                           "cloudCeiling": null,
-                          "cloudCover": 17.29,
+                          "cloudCover": 5.17,
                           "precipitationIntensity": 0,
                           "precipitationType": 1,
-                          "temperature": 6.32,
-                          "temperatureApparent": 6.32,
-                          "weatherCode": 1100,
-                          "windDirection": 306.41,
-                          "windGust": 9.62,
-                          "windSpeed": 4.73
+                          "temperature": 4.73,
+                          "temperatureApparent": 4.73,
+                          "weatherCode": 1000,
+                          "windDirection": 303.09,
+                          "windGust": 4.71,
+                          "windSpeed": 2.54
                       }
                   },
                   {
@@ -1410,15 +1250,15 @@
                       "values": {
                           "cloudBase": null,
                           "cloudCeiling": null,
-                          "cloudCover": 44.88,
+                          "cloudCover": 6.94,
                           "precipitationIntensity": 0,
                           "precipitationType": 1,
-                          "temperature": 7.2,
-                          "temperatureApparent": 7.2,
-                          "weatherCode": 1101,
-                          "windDirection": 311.35,
-                          "windGust": 7.69,
-                          "windSpeed": 4.15
+                          "temperature": 4.33,
+                          "temperatureApparent": 1.95,
+                          "weatherCode": 1000,
+                          "windDirection": 306.9,
+                          "windGust": 5.15,
+                          "windSpeed": 2.66
                       }
                   },
                   {
@@ -1426,143 +1266,143 @@
                       "values": {
                           "cloudBase": null,
                           "cloudCeiling": null,
-                          "cloudCover": 35.1,
+                          "cloudCover": 9.67,
                           "precipitationIntensity": 0,
                           "precipitationType": 1,
-                          "temperature": 6.9,
-                          "temperatureApparent": 6.9,
-                          "weatherCode": 1100,
-                          "windDirection": 298.44,
-                          "windGust": 7.58,
-                          "windSpeed": 3.57
+                          "temperature": 3.53,
+                          "temperatureApparent": 0.88,
+                          "weatherCode": 1000,
+                          "windDirection": 308.37,
+                          "windGust": 5.4,
+                          "windSpeed": 2.79
                       }
                   },
                   {
                       "startTime": "2023-12-01T23:00:00Z",
                       "values": {
-                          "cloudBase": null,
+                          "cloudBase": 0.73,
                           "cloudCeiling": null,
-                          "cloudCover": 28.15,
+                          "cloudCover": 12.86,
                           "precipitationIntensity": 0,
                           "precipitationType": 1,
-                          "temperature": 6.61,
-                          "temperatureApparent": 6.61,
+                          "temperature": 3.29,
+                          "temperatureApparent": 0.47,
                           "weatherCode": 1100,
-                          "windDirection": 294.15,
-                          "windGust": 7.84,
-                          "windSpeed": 3.81
+                          "windDirection": 300.06,
+                          "windGust": 5.78,
+                          "windSpeed": 2.96
                       }
                   },
                   {
                       "startTime": "2023-12-02T00:00:00Z",
                       "values": {
-                          "cloudBase": null,
+                          "cloudBase": 0.88,
                           "cloudCeiling": null,
-                          "cloudCover": 23.47,
+                          "cloudCover": 17.41,
                           "precipitationIntensity": 0,
                           "precipitationType": 1,
-                          "temperature": 6.3,
-                          "temperatureApparent": 6.3,
+                          "temperature": 3.43,
+                          "temperatureApparent": 0.36,
                           "weatherCode": 1100,
-                          "windDirection": 299.43,
-                          "windGust": 8.4,
-                          "windSpeed": 4.23
+                          "windDirection": 293.86,
+                          "windGust": 6.62,
+                          "windSpeed": 3.33
                       }
                   },
                   {
                       "startTime": "2023-12-02T01:00:00Z",
                       "values": {
-                          "cloudBase": null,
+                          "cloudBase": 0.58,
                           "cloudCeiling": null,
-                          "cloudCover": 5.66,
+                          "cloudCover": 42.94,
                           "precipitationIntensity": 0,
                           "precipitationType": 1,
-                          "temperature": 6.32,
-                          "temperatureApparent": 6.32,
-                          "weatherCode": 1000,
-                          "windDirection": 301.52,
-                          "windGust": 8.16,
-                          "windSpeed": 4.28
+                          "temperature": 4.07,
+                          "temperatureApparent": 1.03,
+                          "weatherCode": 1101,
+                          "windDirection": 292.47,
+                          "windGust": 7.38,
+                          "windSpeed": 3.46
                       }
                   },
                   {
                       "startTime": "2023-12-02T02:00:00Z",
                       "values": {
-                          "cloudBase": null,
+                          "cloudBase": 0.54,
                           "cloudCeiling": null,
-                          "cloudCover": 15.87,
+                          "cloudCover": 26.7,
                           "precipitationIntensity": 0,
                           "precipitationType": 1,
-                          "temperature": 6.25,
-                          "temperatureApparent": 6.25,
+                          "temperature": 4.45,
+                          "temperatureApparent": 4.45,
                           "weatherCode": 1100,
-                          "windDirection": 308.42,
-                          "windGust": 7.46,
-                          "windSpeed": 4.08
+                          "windDirection": 304.6,
+                          "windGust": 8.07,
+                          "windSpeed": 3.88
                       }
                   },
                   {
                       "startTime": "2023-12-02T03:00:00Z",
                       "values": {
-                          "cloudBase": null,
+                          "cloudBase": 0.63,
                           "cloudCeiling": null,
-                          "cloudCover": 19.32,
+                          "cloudCover": 30.76,
                           "precipitationIntensity": 0,
-                          "precipitationType": 0,
-                          "temperature": 6.3,
-                          "temperatureApparent": 6.3,
+                          "precipitationType": 1,
+                          "temperature": 5.04,
+                          "temperatureApparent": 5.04,
                           "weatherCode": 1100,
-                          "windDirection": 298.4,
-                          "windGust": 7.2,
-                          "windSpeed": 3.62
+                          "windDirection": 310.84,
+                          "windGust": 8.44,
+                          "windSpeed": 4.26
                       }
                   },
                   {
                       "startTime": "2023-12-02T04:00:00Z",
                       "values": {
-                          "cloudBase": null,
+                          "cloudBase": 0.58,
                           "cloudCeiling": null,
-                          "cloudCover": 21.11,
+                          "cloudCover": 35.91,
                           "precipitationIntensity": 0,
-                          "precipitationType": 0,
-                          "temperature": 6.24,
-                          "temperatureApparent": 6.24,
+                          "precipitationType": 1,
+                          "temperature": 5.39,
+                          "temperatureApparent": 5.39,
                           "weatherCode": 1100,
-                          "windDirection": 292.76,
-                          "windGust": 7.18,
-                          "windSpeed": 3.86
+                          "windDirection": 316.5,
+                          "windGust": 8.47,
+                          "windSpeed": 4.85
                       }
                   },
                   {
                       "startTime": "2023-12-02T05:00:00Z",
                       "values": {
-                          "cloudBase": null,
+                          "cloudBase": 0.51,
                           "cloudCeiling": null,
-                          "cloudCover": 21.1,
+                          "cloudCover": 36.19,
                           "precipitationIntensity": 0,
-                          "precipitationType": 0,
-                          "temperature": 6.14,
-                          "temperatureApparent": 6.14,
+                          "precipitationType": 1,
+                          "temperature": 5.55,
+                          "temperatureApparent": 5.55,
                           "weatherCode": 1100,
-                          "windDirection": 295.69,
-                          "windGust": 7.09,
-                          "windSpeed": 4.09
+                          "windDirection": 261.58,
+                          "windGust": 7.8,
+                          "windSpeed": 4.36
                       }
                   },
                   {
                       "startTime": "2023-12-02T06:00:00Z",
                       "values": {
-                          "cloudBase": null,
+                          "cloudBase": 0.57,
                           "cloudCeiling": null,
-                          "cloudCover": 21.84,
+                          "cloudCover": 45.18,
                           "precipitationIntensity": 0,
-                          "precipitationType": 0,
-                          "temperature": 6.12,
-                          "temperatureApparent": 6.12,
-                          "weatherCode": 1100,
-                          "windDirection": 295.6,
-                          "windGust": 6.27,
-                          "windSpeed": 3.41
+                          "precipitationType": 1,
+                          "temperature": 6.36,
+                          "temperatureApparent": 6.36,
+                          "weatherCode": 1101,
+                          "windDirection": 288.47,
+                          "windGust": 7.42,
+                          "windSpeed": 4.22
                       }
                   },
                   {
@@ -1570,15 +1410,15 @@
                       "values": {
                           "cloudBase": null,
                           "cloudCeiling": null,
-                          "cloudCover": 23.19,
+                          "cloudCover": 45.93,
                           "precipitationIntensity": 0,
                           "precipitationType": 1,
-                          "temperature": 5.73,
-                          "temperatureApparent": 5.73,
-                          "weatherCode": 1100,
-                          "windDirection": 281.46,
-                          "windGust": 5.74,
-                          "windSpeed": 2.99
+                          "temperature": 6.65,
+                          "temperatureApparent": 6.65,
+                          "weatherCode": 1101,
+                          "windDirection": 305.65,
+                          "windGust": 6.82,
+                          "windSpeed": 4.25
                       }
                   },
                   {
@@ -1586,15 +1426,15 @@
                       "values": {
                           "cloudBase": null,
                           "cloudCeiling": null,
-                          "cloudCover": 15.84,
+                          "cloudCover": 69.54,
                           "precipitationIntensity": 0,
                           "precipitationType": 1,
-                          "temperature": 5.48,
-                          "temperatureApparent": 5.48,
-                          "weatherCode": 1100,
-                          "windDirection": 284.21,
-                          "windGust": 5.27,
-                          "windSpeed": 2.89
+                          "temperature": 6.85,
+                          "temperatureApparent": 6.85,
+                          "weatherCode": 1102,
+                          "windDirection": 292.9,
+                          "windGust": 5.84,
+                          "windSpeed": 3.71
                       }
                   },
                   {
@@ -1602,15 +1442,15 @@
                       "values": {
                           "cloudBase": null,
                           "cloudCeiling": null,
-                          "cloudCover": 12.82,
+                          "cloudCover": 79.7,
                           "precipitationIntensity": 0,
                           "precipitationType": 1,
-                          "temperature": 6.25,
-                          "temperatureApparent": 6.25,
-                          "weatherCode": 1100,
-                          "windDirection": 293.68,
-                          "windGust": 4.92,
-                          "windSpeed": 3.28
+                          "temperature": 6.89,
+                          "temperatureApparent": 6.89,
+                          "weatherCode": 1001,
+                          "windDirection": 294.4,
+                          "windGust": 5.82,
+                          "windSpeed": 3.79
                       }
                   },
                   {
@@ -1618,15 +1458,15 @@
                       "values": {
                           "cloudBase": null,
                           "cloudCeiling": null,
-                          "cloudCover": 10.87,
+                          "cloudCover": 78.48,
                           "precipitationIntensity": 0,
                           "precipitationType": 1,
-                          "temperature": 7.15,
-                          "temperatureApparent": 7.15,
-                          "weatherCode": 1000,
-                          "windDirection": 299.02,
-                          "windGust": 4.9,
-                          "windSpeed": 3.23
+                          "temperature": 7.25,
+                          "temperatureApparent": 7.25,
+                          "weatherCode": 1001,
+                          "windDirection": 306.55,
+                          "windGust": 6.45,
+                          "windSpeed": 4.17
                       }
                   },
                   {
@@ -1634,127 +1474,127 @@
                       "values": {
                           "cloudBase": null,
                           "cloudCeiling": null,
-                          "cloudCover": 9.97,
+                          "cloudCover": 69.12,
                           "precipitationIntensity": 0,
                           "precipitationType": 1,
-                          "temperature": 8.04,
-                          "temperatureApparent": 8.04,
-                          "weatherCode": 1000,
-                          "windDirection": 301.09,
-                          "windGust": 5.05,
-                          "windSpeed": 3.22
+                          "temperature": 7.91,
+                          "temperatureApparent": 7.91,
+                          "weatherCode": 1102,
+                          "windDirection": 315.09,
+                          "windGust": 5.39,
+                          "windSpeed": 3.97
                       }
                   },
                   {
                       "startTime": "2023-12-02T12:00:00Z",
                       "values": {
-                          "cloudBase": 0.69,
+                          "cloudBase": null,
                           "cloudCeiling": null,
-                          "cloudCover": 23.74,
+                          "cloudCover": 59.78,
                           "precipitationIntensity": 0,
                           "precipitationType": 1,
-                          "temperature": 8.6,
-                          "temperatureApparent": 8.6,
-                          "weatherCode": 1100,
-                          "windDirection": 299.59,
-                          "windGust": 5.7,
-                          "windSpeed": 3.76
+                          "temperature": 8.49,
+                          "temperatureApparent": 8.49,
+                          "weatherCode": 1101,
+                          "windDirection": 312.61,
+                          "windGust": 5.02,
+                          "windSpeed": 3.61
                       }
                   },
                   {
                       "startTime": "2023-12-02T13:00:00Z",
                       "values": {
-                          "cloudBase": null,
+                          "cloudBase": 0.9,
                           "cloudCeiling": null,
-                          "cloudCover": 9.8,
-                          "precipitationIntensity": 0,
+                          "cloudCover": 79.87,
+                          "precipitationIntensity": 0.02,
                           "precipitationType": 1,
-                          "temperature": 9.04,
-                          "temperatureApparent": 9.04,
-                          "weatherCode": 1000,
-                          "windDirection": 306.17,
-                          "windGust": 6.52,
-                          "windSpeed": 4.03
+                          "temperature": 9.93,
+                          "temperatureApparent": 9.93,
+                          "weatherCode": 1001,
+                          "windDirection": 288.27,
+                          "windGust": 9.66,
+                          "windSpeed": 6.16
                       }
                   },
                   {
                       "startTime": "2023-12-02T14:00:00Z",
                       "values": {
-                          "cloudBase": 0.89,
+                          "cloudBase": 0.91,
                           "cloudCeiling": null,
-                          "cloudCover": 11.28,
-                          "precipitationIntensity": 0,
+                          "cloudCover": 85.51,
+                          "precipitationIntensity": 0.03,
                           "precipitationType": 1,
-                          "temperature": 9.13,
-                          "temperatureApparent": 9.13,
-                          "weatherCode": 1000,
-                          "windDirection": 311.15,
-                          "windGust": 6.58,
-                          "windSpeed": 4.02
+                          "temperature": 9.94,
+                          "temperatureApparent": 9.94,
+                          "weatherCode": 1001,
+                          "windDirection": 282.75,
+                          "windGust": 9.62,
+                          "windSpeed": 6.24
                       }
                   },
                   {
                       "startTime": "2023-12-02T15:00:00Z",
                       "values": {
-                          "cloudBase": 0.91,
+                          "cloudBase": null,
                           "cloudCeiling": null,
-                          "cloudCover": 16.46,
+                          "cloudCover": 9.16,
                           "precipitationIntensity": 0,
-                          "precipitationType": 1,
-                          "temperature": 9.11,
-                          "temperatureApparent": 9.11,
-                          "weatherCode": 1100,
-                          "windDirection": 307.66,
-                          "windGust": 7.18,
-                          "windSpeed": 4.65
+                          "precipitationType": 0,
+                          "temperature": 9.37,
+                          "temperatureApparent": 9.37,
+                          "weatherCode": 1000,
+                          "windDirection": 314.33,
+                          "windGust": 4.43,
+                          "windSpeed": 3.21
                       }
                   },
                   {
                       "startTime": "2023-12-02T16:00:00Z",
                       "values": {
-                          "cloudBase": 0.92,
+                          "cloudBase": null,
                           "cloudCeiling": null,
-                          "cloudCover": 17.79,
+                          "cloudCover": 11.55,
                           "precipitationIntensity": 0,
-                          "precipitationType": 1,
-                          "temperature": 8.64,
-                          "temperatureApparent": 8.64,
-                          "weatherCode": 1100,
-                          "windDirection": 302.39,
-                          "windGust": 7.66,
-                          "windSpeed": 4.87
+                          "precipitationType": 0,
+                          "temperature": 8.87,
+                          "temperatureApparent": 8.87,
+                          "weatherCode": 1000,
+                          "windDirection": 315.12,
+                          "windGust": 4.25,
+                          "windSpeed": 3.12
                       }
                   },
                   {
                       "startTime": "2023-12-02T17:00:00Z",
                       "values": {
-                          "cloudBase": 0.89,
+                          "cloudBase": 0.93,
                           "cloudCeiling": null,
-                          "cloudCover": 34.19,
-                          "precipitationIntensity": 0,
+                          "cloudCover": 91.7,
+                          "precipitationIntensity": 0.02,
                           "precipitationType": 1,
-                          "temperature": 8.25,
-                          "temperatureApparent": 8.25,
-                          "weatherCode": 1100,
-                          "windDirection": 292.48,
-                          "windGust": 7.43,
-                          "windSpeed": 4.39
+                          "temperature": 8.54,
+                          "temperatureApparent": 8.54,
+                          "weatherCode": 1001,
+                          "windDirection": 291.41,
+                          "windGust": 9.88,
+                          "windSpeed": 5.52
                       }
                   },
                   {
                       "startTime": "2023-12-02T18:00:00Z",
                       "values": {
-                          "cloudBase": 0.88,
+                          "cloudBase": null,
                           "cloudCeiling": null,
-                          "cloudCover": 41.52,
+                          "cloudCover": 10.46,
                           "precipitationIntensity": 0,
-                          "precipitationType": 1,
-                          "temperature": 7.75,
-                          "temperatureApparent": 7.75,
-                          "weatherCode": 1101,
-                          "windDirection": 295.24,
-                          "windGust": 7.73,
-                          "windSpeed": 4.76
+                          "precipitationType": 0,
+                          "temperature": 7.8,
+                          "temperatureApparent": 7.8,
+                          "weatherCode": 1000,
+                          "windDirection": 312.09,
+                          "windGust": 3.7,
+                          "windSpeed": 2.03
                       }
                   },
                   {
@@ -1762,15 +1602,15 @@
                       "values": {
                           "cloudBase": null,
                           "cloudCeiling": null,
-                          "cloudCover": 7.23,
+                          "cloudCover": 5.67,
                           "precipitationIntensity": 0,
                           "precipitationType": 0,
-                          "temperature": 7.1,
-                          "temperatureApparent": 7.1,
+                          "temperature": 7.48,
+                          "temperatureApparent": 7.48,
                           "weatherCode": 1000,
-                          "windDirection": 303.65,
-                          "windGust": 8.15,
-                          "windSpeed": 4.87
+                          "windDirection": 298.03,
+                          "windGust": 2.53,
+                          "windSpeed": 1.53
                       }
                   },
                   {
@@ -1778,15 +1618,15 @@
                       "values": {
                           "cloudBase": null,
                           "cloudCeiling": null,
-                          "cloudCover": 10.24,
+                          "cloudCover": 2.84,
                           "precipitationIntensity": 0,
                           "precipitationType": 0,
-                          "temperature": 6.74,
-                          "temperatureApparent": 6.74,
+                          "temperature": 7.1,
+                          "temperatureApparent": 7.1,
                           "weatherCode": 1000,
-                          "windDirection": 301.42,
-                          "windGust": 6.6,
-                          "windSpeed": 3.57
+                          "windDirection": 303.05,
+                          "windGust": 1.82,
+                          "windSpeed": 1.28
                       }
                   },
                   {
@@ -1794,15 +1634,15 @@
                       "values": {
                           "cloudBase": null,
                           "cloudCeiling": null,
-                          "cloudCover": 9.29,
+                          "cloudCover": 1.89,
                           "precipitationIntensity": 0,
                           "precipitationType": 0,
-                          "temperature": 6.32,
-                          "temperatureApparent": 6.32,
+                          "temperature": 6.7,
+                          "temperatureApparent": 6.7,
                           "weatherCode": 1000,
-                          "windDirection": 284.57,
-                          "windGust": 5.69,
-                          "windSpeed": 3.47
+                          "windDirection": 299.17,
+                          "windGust": 1.64,
+                          "windSpeed": 1.14
                       }
                   },
                   {
@@ -1810,15 +1650,15 @@
                       "values": {
                           "cloudBase": null,
                           "cloudCeiling": null,
-                          "cloudCover": 10.94,
+                          "cloudCover": 1.73,
                           "precipitationIntensity": 0,
                           "precipitationType": 0,
-                          "temperature": 6.08,
-                          "temperatureApparent": 6.08,
+                          "temperature": 6.36,
+                          "temperatureApparent": 6.36,
                           "weatherCode": 1000,
-                          "windDirection": 293.9,
-                          "windGust": 4.79,
-                          "windSpeed": 2.84
+                          "windDirection": 312.24,
+                          "windGust": 1.74,
+                          "windSpeed": 1.13
                       }
                   },
                   {
@@ -1826,31 +1666,31 @@
                       "values": {
                           "cloudBase": null,
                           "cloudCeiling": null,
-                          "cloudCover": 11.54,
+                          "cloudCover": 2.94,
                           "precipitationIntensity": 0,
                           "precipitationType": 0,
-                          "temperature": 5.9,
-                          "temperatureApparent": 5.9,
+                          "temperature": 6.03,
+                          "temperatureApparent": 6.03,
                           "weatherCode": 1000,
-                          "windDirection": 292.65,
-                          "windGust": 4.22,
-                          "windSpeed": 2.64
+                          "windDirection": 307.8,
+                          "windGust": 1.43,
+                          "windSpeed": 0.98
                       }
                   },
                   {
                       "startTime": "2023-12-03T00:00:00Z",
                       "values": {
-                          "cloudBase": null,
+                          "cloudBase": 0.96,
                           "cloudCeiling": null,
-                          "cloudCover": 10.88,
+                          "cloudCover": 13.1,
                           "precipitationIntensity": 0,
-                          "precipitationType": 1,
-                          "temperature": 5.67,
-                          "temperatureApparent": 5.67,
-                          "weatherCode": 1000,
-                          "windDirection": 316.97,
-                          "windGust": 3.05,
-                          "windSpeed": 1.97
+                          "precipitationType": 0,
+                          "temperature": 5.74,
+                          "temperatureApparent": 5.74,
+                          "weatherCode": 1100,
+                          "windDirection": 292.21,
+                          "windGust": 1.31,
+                          "windSpeed": 1.27
                       }
                   },
                   {
@@ -1858,214 +1698,374 @@
                       "values": {
                           "cloudBase": null,
                           "cloudCeiling": null,
-                          "cloudCover": 83.27,
+                          "cloudCover": 100,
                           "precipitationIntensity": 0,
                           "precipitationType": 0,
-                          "temperature": 5.44,
-                          "temperatureApparent": 5.44,
+                          "temperature": 5.69,
+                          "temperatureApparent": 5.69,
                           "weatherCode": 1001,
-                          "windDirection": 291.8,
-                          "windGust": 2.26,
-                          "windSpeed": 1.84
+                          "windDirection": 307.6,
+                          "windGust": 1.18,
+                          "windSpeed": 1.07
                       }
                   },
                   {
                       "startTime": "2023-12-03T02:00:00Z",
                       "values": {
-                          "cloudBase": null,
+                          "cloudBase": 3.69,
                           "cloudCeiling": null,
-                          "cloudCover": 61.91,
+                          "cloudCover": 100,
                           "precipitationIntensity": 0,
                           "precipitationType": 0,
-                          "temperature": 5.06,
-                          "temperatureApparent": 5.06,
-                          "weatherCode": 1101,
-                          "windDirection": 273.56,
-                          "windGust": 2.93,
-                          "windSpeed": 2.15
+                          "temperature": 5.57,
+                          "temperatureApparent": 5.57,
+                          "weatherCode": 1001,
+                          "windDirection": 294.01,
+                          "windGust": 1.25,
+                          "windSpeed": 1.02
                       }
                   },
                   {
                       "startTime": "2023-12-03T03:00:00Z",
                       "values": {
-                          "cloudBase": null,
+                          "cloudBase": 3.54,
                           "cloudCeiling": null,
-                          "cloudCover": 49.55,
+                          "cloudCover": 100,
                           "precipitationIntensity": 0,
                           "precipitationType": 0,
-                          "temperature": 4.75,
-                          "temperatureApparent": 4.75,
-                          "weatherCode": 1101,
-                          "windDirection": 276.04,
-                          "windGust": 2.46,
-                          "windSpeed": 1.76
+                          "temperature": 5.52,
+                          "temperatureApparent": 5.52,
+                          "weatherCode": 1001,
+                          "windDirection": 279.22,
+                          "windGust": 1.3,
+                          "windSpeed": 1.01
                       }
                   },
                   {
                       "startTime": "2023-12-03T04:00:00Z",
                       "values": {
-                          "cloudBase": 5.81,
+                          "cloudBase": 3.57,
                           "cloudCeiling": null,
-                          "cloudCover": 45.18,
+                          "cloudCover": 100,
                           "precipitationIntensity": 0,
                           "precipitationType": 0,
-                          "temperature": 4.6,
-                          "temperatureApparent": 4.6,
-                          "weatherCode": 1101,
-                          "windDirection": 271.01,
-                          "windGust": 2.55,
-                          "windSpeed": 1.79
+                          "temperature": 5.34,
+                          "temperatureApparent": 5.34,
+                          "weatherCode": 1001,
+                          "windDirection": 265.75,
+                          "windGust": 1.47,
+                          "windSpeed": 1.17
                       }
                   },
                   {
                       "startTime": "2023-12-03T05:00:00Z",
                       "values": {
-                          "cloudBase": 5.66,
+                          "cloudBase": 3.54,
                           "cloudCeiling": null,
-                          "cloudCover": 56.16,
+                          "cloudCover": 96.88,
                           "precipitationIntensity": 0,
                           "precipitationType": 0,
-                          "temperature": 4.55,
-                          "temperatureApparent": 4.55,
-                          "weatherCode": 1101,
-                          "windDirection": 270.34,
-                          "windGust": 2.34,
-                          "windSpeed": 1.61
+                          "temperature": 4.95,
+                          "temperatureApparent": 4.95,
+                          "weatherCode": 1001,
+                          "windDirection": 251.48,
+                          "windGust": 1.44,
+                          "windSpeed": 1.09
                       }
                   },
                   {
                       "startTime": "2023-12-03T06:00:00Z",
                       "values": {
-                          "cloudBase": 5.34,
+                          "cloudBase": 3.47,
                           "cloudCeiling": null,
-                          "cloudCover": 53.86,
+                          "cloudCover": 93.46,
                           "precipitationIntensity": 0,
                           "precipitationType": 0,
-                          "temperature": 4.35,
-                          "temperatureApparent": 4.35,
-                          "weatherCode": 1101,
-                          "windDirection": 273.7,
-                          "windGust": 1.63,
-                          "windSpeed": 1.24
+                          "temperature": 4.79,
+                          "temperatureApparent": 4.79,
+                          "weatherCode": 1001,
+                          "windDirection": 261,
+                          "windGust": 1.57,
+                          "windSpeed": 1.18
                       }
                   },
                   {
                       "startTime": "2023-12-03T07:00:00Z",
                       "values": {
-                          "cloudBase": 5.34,
+                          "cloudBase": 6.05,
                           "cloudCeiling": null,
-                          "cloudCover": 69.24,
+                          "cloudCover": 100,
                           "precipitationIntensity": 0,
                           "precipitationType": 0,
-                          "temperature": 4.75,
-                          "temperatureApparent": 4.75,
-                          "weatherCode": 1102,
-                          "windDirection": 273.7,
-                          "windGust": 1.36,
-                          "windSpeed": 1.1
+                          "temperature": 4.6,
+                          "temperatureApparent": 4.6,
+                          "weatherCode": 1001,
+                          "windDirection": 191.58,
+                          "windGust": 0.83,
+                          "windSpeed": 0.5
                       }
                   },
                   {
                       "startTime": "2023-12-03T08:00:00Z",
                       "values": {
-                          "cloudBase": 4.03,
+                          "cloudBase": 4.46,
                           "cloudCeiling": null,
-                          "cloudCover": 84.62,
+                          "cloudCover": 35.49,
                           "precipitationIntensity": 0,
                           "precipitationType": 0,
-                          "temperature": 5.15,
-                          "temperatureApparent": 5.15,
-                          "weatherCode": 1001,
-                          "windDirection": 198.83,
-                          "windGust": 1.09,
-                          "windSpeed": 0.96
+                          "temperature": 4.64,
+                          "temperatureApparent": 4.64,
+                          "weatherCode": 1100,
+                          "windDirection": 241.29,
+                          "windGust": 0.96,
+                          "windSpeed": 0.65
                       }
                   },
                   {
                       "startTime": "2023-12-03T09:00:00Z",
                       "values": {
-                          "cloudBase": 4.03,
+                          "cloudBase": null,
                           "cloudCeiling": null,
-                          "cloudCover": 100,
+                          "cloudCover": 48.35,
                           "precipitationIntensity": 0,
                           "precipitationType": 0,
-                          "temperature": 5.55,
-                          "temperatureApparent": 5.55,
-                          "weatherCode": 1001,
-                          "windDirection": 198.83,
-                          "windGust": 0.81,
-                          "windSpeed": 0.81
+                          "temperature": 5.48,
+                          "temperatureApparent": 5.48,
+                          "weatherCode": 1101,
+                          "windDirection": 225.36,
+                          "windGust": 0.99,
+                          "windSpeed": 0.73
                       }
                   },
                   {
                       "startTime": "2023-12-03T10:00:00Z",
                       "values": {
-                          "cloudBase": 4.03,
+                          "cloudBase": 4.44,
                           "cloudCeiling": null,
-                          "cloudCover": 100,
+                          "cloudCover": 44.75,
                           "precipitationIntensity": 0,
                           "precipitationType": 0,
-                          "temperature": 6.18,
-                          "temperatureApparent": 6.18,
-                          "weatherCode": 1001,
-                          "windDirection": 198.83,
-                          "windGust": 1.15,
-                          "windSpeed": 1.15
+                          "temperature": 6.45,
+                          "temperatureApparent": 6.45,
+                          "weatherCode": 1101,
+                          "windDirection": 190.13,
+                          "windGust": 1.02,
+                          "windSpeed": 0.85
                       }
                   },
                   {
                       "startTime": "2023-12-03T11:00:00Z",
                       "values": {
-                          "cloudBase": 3.95,
+                          "cloudBase": 4.78,
                           "cloudCeiling": null,
-                          "cloudCover": 100,
+                          "cloudCover": 55.78,
                           "precipitationIntensity": 0,
                           "precipitationType": 0,
-                          "temperature": 6.81,
-                          "temperatureApparent": 6.81,
-                          "weatherCode": 1001,
-                          "windDirection": 183.45,
-                          "windGust": 1.5,
-                          "windSpeed": 1.5
+                          "temperature": 7.1,
+                          "temperatureApparent": 7.1,
+                          "weatherCode": 1101,
+                          "windDirection": 185.61,
+                          "windGust": 1.46,
+                          "windSpeed": 1.46
                       }
                   },
                   {
                       "startTime": "2023-12-03T12:00:00Z",
                       "values": {
-                          "cloudBase": 3.95,
+                          "cloudBase": 0.69,
+                          "cloudCeiling": null,
+                          "cloudCover": 63.18,
+                          "precipitationIntensity": 0,
+                          "precipitationType": 0,
+                          "temperature": 7.63,
+                          "temperatureApparent": 7.63,
+                          "weatherCode": 1102,
+                          "windDirection": 192.97,
+                          "windGust": 2.2,
+                          "windSpeed": 2.2
+                      }
+                  },
+                  {
+                      "startTime": "2023-12-03T13:00:00Z",
+                      "values": {
+                          "cloudBase": 0.69,
+                          "cloudCeiling": null,
+                          "cloudCover": 75.44,
+                          "precipitationIntensity": 0,
+                          "precipitationType": 0,
+                          "temperature": 7.64,
+                          "temperatureApparent": 7.64,
+                          "weatherCode": 1001,
+                          "windDirection": 192.97,
+                          "windGust": 2.62,
+                          "windSpeed": 2.61
+                      }
+                  },
+                  {
+                      "startTime": "2023-12-03T14:00:00Z",
+                      "values": {
+                          "cloudBase": 0.9,
+                          "cloudCeiling": null,
+                          "cloudCover": 87.71,
+                          "precipitationIntensity": 0,
+                          "precipitationType": 0,
+                          "temperature": 7.65,
+                          "temperatureApparent": 7.65,
+                          "weatherCode": 1001,
+                          "windDirection": 208.81,
+                          "windGust": 3.04,
+                          "windSpeed": 3.02
+                      }
+                  },
+                  {
+                      "startTime": "2023-12-03T15:00:00Z",
+                      "values": {
+                          "cloudBase": 0.9,
+                          "cloudCeiling": null,
+                          "cloudCover": 99.98,
+                          "precipitationIntensity": 0,
+                          "precipitationType": 0,
+                          "temperature": 7.66,
+                          "temperatureApparent": 7.66,
+                          "weatherCode": 1001,
+                          "windDirection": 208.81,
+                          "windGust": 3.45,
+                          "windSpeed": 3.44
+                      }
+                  },
+                  {
+                      "startTime": "2023-12-03T16:00:00Z",
+                      "values": {
+                          "cloudBase": 0.9,
+                          "cloudCeiling": null,
+                          "cloudCover": 99.68,
+                          "precipitationIntensity": 0,
+                          "precipitationType": 0,
+                          "temperature": 7.21,
+                          "temperatureApparent": 7.21,
+                          "weatherCode": 1001,
+                          "windDirection": 208.81,
+                          "windGust": 3.37,
+                          "windSpeed": 3.19
+                      }
+                  },
+                  {
+                      "startTime": "2023-12-03T17:00:00Z",
+                      "values": {
+                          "cloudBase": 0.88,
+                          "cloudCeiling": null,
+                          "cloudCover": 99.38,
+                          "precipitationIntensity": 0,
+                          "precipitationType": 0,
+                          "temperature": 6.77,
+                          "temperatureApparent": 6.77,
+                          "weatherCode": 1001,
+                          "windDirection": 230.01,
+                          "windGust": 3.29,
+                          "windSpeed": 2.95
+                      }
+                  },
+                  {
+                      "startTime": "2023-12-03T18:00:00Z",
+                      "values": {
+                          "cloudBase": 0.88,
+                          "cloudCeiling": null,
+                          "cloudCover": 99.08,
+                          "precipitationIntensity": 0,
+                          "precipitationType": 0,
+                          "temperature": 6.33,
+                          "temperatureApparent": 6.33,
+                          "weatherCode": 1001,
+                          "windDirection": 230.01,
+                          "windGust": 3.21,
+                          "windSpeed": 2.7
+                      }
+                  },
+                  {
+                      "startTime": "2023-12-03T19:00:00Z",
+                      "values": {
+                          "cloudBase": 0.88,
+                          "cloudCeiling": null,
+                          "cloudCover": 99.39,
+                          "precipitationIntensity": 0,
+                          "precipitationType": 0,
+                          "temperature": 6.22,
+                          "temperatureApparent": 6.22,
+                          "weatherCode": 1001,
+                          "windDirection": 230.01,
+                          "windGust": 3.54,
+                          "windSpeed": 2.67
+                      }
+                  },
+                  {
+                      "startTime": "2023-12-03T20:00:00Z",
+                      "values": {
+                          "cloudBase": 2.52,
+                          "cloudCeiling": null,
+                          "cloudCover": 99.69,
+                          "precipitationIntensity": 0,
+                          "precipitationType": 1,
+                          "temperature": 6.1,
+                          "temperatureApparent": 6.1,
+                          "weatherCode": 1001,
+                          "windDirection": 214.6,
+                          "windGust": 3.88,
+                          "windSpeed": 2.64
+                      }
+                  },
+                  {
+                      "startTime": "2023-12-03T21:00:00Z",
+                      "values": {
+                          "cloudBase": 2.52,
                           "cloudCeiling": null,
                           "cloudCover": 100,
                           "precipitationIntensity": 0,
-                          "precipitationType": 0,
-                          "temperature": 7.44,
-                          "temperatureApparent": 7.44,
+                          "precipitationType": 1,
+                          "temperature": 5.99,
+                          "temperatureApparent": 5.99,
                           "weatherCode": 1001,
-                          "windDirection": 183.45,
-                          "windGust": 1.84,
-                          "windSpeed": 1.84
+                          "windDirection": 214.6,
+                          "windGust": 4.22,
+                          "windSpeed": 2.61
+                      }
+                  },
+                  {
+                      "startTime": "2023-12-03T22:00:00Z",
+                      "values": {
+                          "cloudBase": 2.52,
+                          "cloudCeiling": null,
+                          "cloudCover": 100,
+                          "precipitationIntensity": 0,
+                          "precipitationType": 1,
+                          "temperature": 5.66,
+                          "temperatureApparent": 5.66,
+                          "weatherCode": 1001,
+                          "windDirection": 214.6,
+                          "windGust": 4.47,
+                          "windSpeed": 2.65
                       }
                   }
               ]
           },
           {
               "timestep": "current",
-              "endTime": "2023-11-28T12:34:00Z",
-              "startTime": "2023-11-28T12:34:00Z",
+              "endTime": "2023-11-28T22:34:00Z",
+              "startTime": "2023-11-28T22:34:00Z",
               "intervals": [
                   {
-                      "startTime": "2023-11-28T12:34:00Z",
+                      "startTime": "2023-11-28T22:34:00Z",
                       "values": {
-                          "cloudBase": 0.4,
-                          "cloudCeiling": 0.4,
-                          "cloudCover": 81,
+                          "cloudBase": 0.01,
+                          "cloudCeiling": 0.01,
+                          "cloudCover": 99,
                           "precipitationIntensity": 0,
                           "precipitationType": 0,
-                          "temperature": 12.19,
-                          "temperatureApparent": 12.19,
-                          "weatherCode": 1001,
-                          "windDirection": 210.69,
-                          "windGust": 7.81,
-                          "windSpeed": 3.5
+                          "temperature": 9.13,
+                          "temperatureApparent": 9.13,
+                          "weatherCode": 2000,
+                          "windDirection": 227.5,
+                          "windGust": 5.31,
+                          "windSpeed": 2.88
                       }
                   }
               ]

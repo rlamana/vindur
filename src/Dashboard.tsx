@@ -1,13 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { Typography, List, Box, Divider, LinearProgress } from '@mui/material';
 
-import fixtures from './fixtures/weather.json';
 import { Timeline, WeatherResponse } from './model/weather';
-
 import DayCard from './DayCard';
 import NowCard from './NowCard';
 import WindGraph from './WindGraph';
 
+import fixtures from './fixtures/weather.json';
 const USE_FIXTURES_FOR_DEV = true;
 
 const timelineApiKey = 'Cldy6unrJiv47zNSnnkhvi9PP2R403uY';
@@ -21,7 +20,7 @@ const getWeatherQuery = (location: GeolocationCoordinates) => {
     'windGust',
     'windDirection',
     'temperature',
-    'temperatureDashboardarent',
+    'temperatureApparent',
     'cloudCover',
     'cloudBase',
     'cloudCeiling',
@@ -141,7 +140,9 @@ const Dashboard: React.FC = () => {
           <List>
             <WindGraph intervals={todayInfo.intervals} />
           </List>
+
           <Divider sx={{ my: 2 }} />
+
           <Typography variant="h5">Week</Typography>
           <List>
             {weekInfo.intervals.map((day, dayIndex) => (
