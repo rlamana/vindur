@@ -1,10 +1,6 @@
 /* src/App/App.module.css */
-.container {
+.App {
   background-color: black;
   color: white;
   padding: 20px;
-}
-
-.listItem {
-  margin-bottom: 10px;
 }

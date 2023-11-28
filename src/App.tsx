@@ -1,39 +1,15 @@
-// src/App.tsx
 import React, { useState, useEffect } from 'react';
-import {
-  Typography,
-  List,
-  ListItemIcon,
-  CardContent,
-  Card,
-} from '@mui/material';
-import AirIcon from '@mui/icons-material/Air';
-import styles from './App.module.css';
+import { Typography, List } from '@mui/material';
+
 import fixtures from './fixtures/weather.json';
+import { Timeline, WeatherResponse } from './model/weather';
+
+import styles from './App.module.css';
+import DayCard from './DayCard';
+import NowCard from './NowCard';
+import WindGraph from './WindGraph';
 
 const USE_FIXTURES_FOR_DEV = true;
-
-// Type for the response from the API
-interface WeatherDataContents {
-  timelines: {
-    intervals: {
-      startTime: string;
-      values: {
-        windSpeed: number;
-        windDirection: number;
-        totalPrecipitationAccumulation: number;
-      };
-    }[];
-  }[];
-}
-
-// Type for the contents of the "data" property in ApiResponse
-interface ApiResponse {
-  data?: WeatherDataContents;
-}
-
-// Combined type for WeatherData
-interface WeatherData extends ApiResponse {}
 
 const timelineApiKey = 'Cldy6unrJiv47zNSnnkhvi9PP2R403uY';
 
@@ -59,13 +35,13 @@ const getWeatherQuery = (location: GeolocationCoordinates) => {
   const now = new Date();
   const startTime = now.toISOString();
   const endTimeDate = new Date(now);
-  endTimeDate.setDate(now.getDate() + 1);
+  endTimeDate.setDate(now.getDate() + 5);
   const endTime = endTimeDate.toISOString();
 
   const url = new URL(timelineBaseURL);
   url.searchParams.set(
     'location',
-    `${location.latitude},${location.longitude}`,
+    `${location.latitude},${location.longitude}`
   );
   url.searchParams.set('fields', fields.join(','));
   url.searchParams.set('units', units);
@@ -73,12 +49,14 @@ const getWeatherQuery = (location: GeolocationCoordinates) => {
   url.searchParams.set('startTime', startTime);
   url.searchParams.set('endTime', endTime);
   url.searchParams.set('apikey', timelineApiKey);
-
+console.log(decodeURIComponent(url.toString()))
   return decodeURIComponent(url.toString());
 };
 
 const App: React.FC = () => {
-  const [weatherData, setWeatherData] = useState<WeatherData>({});
+  const [nowInfo, setNowInfo] = useState<Timeline | null>(null);
+  const [todayInfo, setTodayInfo] = useState<Timeline | null>(null);
+  const [weekInfo, setWeekInfo] = useState<Timeline | null>(null);
   const [location, setLocation] = useState<GeolocationCoordinates | null>(null);
 
   useEffect(() => {
@@ -89,7 +67,7 @@ const App: React.FC = () => {
         },
         (error) => {
           console.error('Error getting location:', error);
-        },
+        }
       );
     };
 
@@ -103,17 +81,31 @@ const App: React.FC = () => {
       }
 
       try {
-        let data: ApiResponse;
+        let weatherResponse: WeatherResponse;
         if (USE_FIXTURES_FOR_DEV) {
-          data = fixtures;
+          weatherResponse = fixtures;
         } else {
           const response = await fetch(getWeatherQuery(location));
           if (!response.ok) {
             throw new Error('Failed to fetch weather data');
           }
-          data = await response.json();
+          weatherResponse = await response.json();
         }
-        setWeatherData(data);
+        const now =
+          weatherResponse.data?.timelines.find(
+            (timeline) => timeline.timestep === 'current'
+          ) ?? null;
+        const today =
+          weatherResponse.data?.timelines.find(
+            (timeline) => timeline.timestep === '1h'
+          ) ?? null;
+        const week =
+          weatherResponse.data?.timelines.find(
+            (timeline) => timeline.timestep === '1d'
+          ) ?? null;
+        setNowInfo(now);
+        setTodayInfo(today);
+        setWeekInfo(week);
       } catch (error) {
         console.error('Error fetching weather data:', error);
       }
@@ -123,32 +115,30 @@ const App: React.FC = () => {
   }, [location]);
 
   return (
-    <div className={styles.container}>
-      <Typography variant="h4">7-Day Flying Conditions</Typography>
-      {weatherData.data?.timelines ? (
-        <List>
-          {weatherData.data.timelines.map((timeline, index) => (
-            <Card key={index} className={styles.listItem}>
-              <CardContent>
-                <ListItemIcon>
-                  <AirIcon />
-                </ListItemIcon>
-                <Typography variant="h6">
-                  Date:{' '}
-                  {new Date(
-                    timeline.intervals[0].startTime,
-                  ).toLocaleDateString()}
-                </Typography>
-                <Typography>
-                  Wind Speed: {timeline.intervals[0].values.windSpeed} m/s |
-                  Wind Direction: {timeline.intervals[0].values.windDirection}°
-                </Typography>
-              </CardContent>
-            </Card>
-          ))}
-        </List>
+    <div className={styles.App}>
+      <Typography variant="h3">7-Day Flying Conditions</Typography>
+
+      <Typography variant="h5">Now</Typography>
+      {nowInfo?.intervals ? (
+        <NowCard day={nowInfo.intervals[0]} />
       ) : (
         <Typography>Loading...</Typography>
+      )}
+
+      <Typography variant="h5">Today</Typography>
+      {todayInfo?.intervals && (
+        <List>
+          <WindGraph intervals={todayInfo.intervals} />
+        </List>
+      )}
+
+      <Typography variant="h5">Week</Typography>
+      {weekInfo?.intervals && (
+        <List>
+          {weekInfo.intervals.map((day, dayIndex) => (
+            <DayCard key={`day-${dayIndex}`} day={day} />
+          ))}
+        </List>
       )}
     </div>
   );
