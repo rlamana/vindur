@@ -17,14 +17,6 @@
   box-sizing: border-box;
 }
 
-/* #root {
-  display: flex;
-  flex-direction: column;
-  padding: 0;
-  margin: 0;
-  text-align: center;
-} */
-
 a {
   font-weight: 500;
   color: #646cff;

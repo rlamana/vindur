@@ -8,7 +8,7 @@ import CssBaseline from '@mui/material/CssBaseline';
 import App from './App.tsx';
 import conditionsReducer from './state/conditionsSlice.ts';
 
-import './index.css';
+import './main.css';
 
 const darkTheme = createTheme({
   palette: {
