@@ -130,7 +130,7 @@ const Dashboard: React.FC = () => {
       sx={{
         width: '100%',
         overflow: 'auto',
-        height: '100vh',
+        height: '100%',
         flex: 1,
         pb: 4
       }}
@@ -140,7 +140,7 @@ const Dashboard: React.FC = () => {
           sx={{
             p: 4,
             width: '100%',
-            height: '100vh',
+            height: '100%',
           }}
         >
           <Box
