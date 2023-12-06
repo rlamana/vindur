@@ -16,7 +16,7 @@ import {
 import { useMemo } from 'react';
 import dayjs from 'dayjs';
 
-import { Interval } from './model/weather';
+import { Interval, convertMStoKMH } from './model/weather';
 import { Box } from '@mui/material';
 
 const CanvasBackground: Plugin<'line'> = {
@@ -65,7 +65,7 @@ const WindGraph: React.FC<WindGraphProps> = ({ intervals }) => {
     scales: {
       y: {
         beginAtZero: true,
-        max: 45,
+        max: 30,
         grid: {
           display: false,
         },
@@ -90,7 +90,7 @@ const WindGraph: React.FC<WindGraphProps> = ({ intervals }) => {
       datasets: [
         {
           label: 'Wind Gust',
-          data: next12hours.map(({ values }) => values.windGust),
+          data: next12hours.map(({ values }) => convertMStoKMH(values.windGust)),
           borderColor: 'rgba(53, 162, 235, 0.5)',
           borderDash: [5, 5],
           borderJoinStyle: 'round',
@@ -100,7 +100,7 @@ const WindGraph: React.FC<WindGraphProps> = ({ intervals }) => {
         },
         {
           label: 'Wind Speed',
-          data: next12hours.map(({ values }) => values.windSpeed),
+          data: next12hours.map(({ values }) => convertMStoKMH(values.windSpeed)),
           borderColor: 'rgb(53, 162, 235)',
           borderJoinStyle: 'round',
           borderCapStyle: 'round',

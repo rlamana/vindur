@@ -1,6 +1,6 @@
 import React from 'react';
 import { CardContent, Card, Typography, Box } from '@mui/material';
-import { Interval } from './model/weather';
+import { Interval, convertMStoKMH } from './model/weather';
 import AirIcon from '@mui/icons-material/Air';
 import dayjs from 'dayjs';
 import { ArrowCircleUp } from '@mui/icons-material';
@@ -36,9 +36,9 @@ const DayCard: React.FC<DayCardProps> = ({ day }) => {
         </Box>
         <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
           <AirIcon />
-          <Typography>Speed: {day.values.windSpeed} m/s</Typography>
+          <Typography>Speed: {convertMStoKMH(day.values.windSpeed)} km/h</Typography>
           <Typography>·</Typography>
-          <Typography>Gust: {day.values.windGust} m/s</Typography>
+          <Typography>Gust: {convertMStoKMH(day.values.windGust)} km/h</Typography>
           <Box sx={{ flex: 1 }} />
           <ArrowCircleUp
             sx={{ transform: `rotate(${day.values.windDirection}deg)` }}

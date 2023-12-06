@@ -32,3 +32,10 @@ export interface Weather {
 export interface WeatherResponse {
   data?: Weather;
 };
+
+export function convertMStoKMH(ms: number): number {
+  const metersInKilometer = 1000;
+  const secondsInHour = 3600;
+  const kilometersPerHour = ms * (metersInKilometer / secondsInHour);
+  return parseFloat(kilometersPerHour.toFixed(2)); // Ensure only two decimal places
+}

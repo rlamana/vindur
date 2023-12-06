@@ -5,7 +5,7 @@ import {
   Typography,
   Box,
 } from '@mui/material';
-import { Interval } from './model/weather';
+import { Interval, convertMStoKMH } from './model/weather';
 import AirIcon from '@mui/icons-material/Air';
 
 import ConditionBadge from './ConditionBadge';
@@ -34,9 +34,9 @@ const NowCard: React.FC<NowCardProps> = ({ day }) => {
           <ConditionBadge interval={day} size="64px" />
           <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
             <AirIcon />
-            <Typography>Speed: {day.values.windSpeed} m/s</Typography>
+            <Typography>Speed: {convertMStoKMH(day.values.windSpeed)} km/h</Typography>
             <Typography>·</Typography>
-            <Typography>Gust: {day.values.windGust} m/s</Typography>
+            <Typography>Gust: {convertMStoKMH(day.values.windGust)} km/h</Typography>
           </Box>
         </Box>
       </CardContent>
