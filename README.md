@@ -1,30 +1,59 @@
-# React + TypeScript + Vite
+# Vindur
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A weather dashboard for drone pilots. Vindur fetches real-time and forecasted weather data and evaluates flying conditions based on wind speed, gusts, cloud cover, and precipitation — so you can quickly decide whether it's safe to fly.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Current conditions at a glance
+- 5-day forecast with daily summaries
+- Wind speed and gust charts
+- Automatic flying condition assessment with status badges
+- Configurable settings panel
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- React 18 + TypeScript
+- Vite
+- Material UI (MUI)
+- Redux Toolkit
+- Chart.js
+- Tomorrow.io API
 
-- Configure the top-level `parserOptions` property like this:
+## Getting Started
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+### Prerequisites
+
+- Node.js 18+
+- A [Tomorrow.io](https://tomorrow.io) API key (for production data)
+
+### Install dependencies
+
+```bash
+npm install
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Run in development mode
+
+```bash
+npm run dev
+```
+
+Development mode uses fixture data — no API key required. The app will be available at `http://localhost:5173`.
+
+### Build for production
+
+```bash
+npm run build
+```
+
+Set your Tomorrow.io API key in the environment before building:
+
+```bash
+VITE_TOMORROW_API_KEY=your_api_key npm run build
+```
+
+### Preview production build
+
+```bash
+npm run preview
+```
