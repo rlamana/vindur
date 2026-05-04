@@ -15,12 +15,9 @@ import DayCard from './DayCard';
 import NowCard from './NowCard';
 import WindGraph from './WindGraph';
 
-import fixtures from './fixtures/weather.json';
 import Configuration from './Configuration';
 
-const USE_FIXTURES_FOR_DEV = import.meta.env.MODE === 'development';
-
-const timelineApiKey = 'Cldy6unrJiv47zNSnnkhvi9PP2R403uY';
+const timelineApiKey = import.meta.env.VITE_TOMORROW_API_KEY;
 
 const getWeatherQuery = (location: GeolocationCoordinates) => {
   const timelineBaseURL = 'https://api.tomorrow.io/v4/timelines';
@@ -92,16 +89,11 @@ const Dashboard: React.FC = () => {
       }
 
       try {
-        let weatherResponse: WeatherResponse;
-        if (USE_FIXTURES_FOR_DEV) {
-          weatherResponse = fixtures;
-        } else {
-          const response = await fetch(getWeatherQuery(location));
-          if (!response.ok) {
-            throw new Error('Failed to fetch weather data');
-          }
-          weatherResponse = await response.json();
+        const response = await fetch(getWeatherQuery(location));
+        if (!response.ok) {
+          throw new Error('Failed to fetch weather data');
         }
+        const weatherResponse: WeatherResponse = await response.json();
         const now =
           weatherResponse.data?.timelines.find(
             (timeline) => timeline.timestep === 'current'
